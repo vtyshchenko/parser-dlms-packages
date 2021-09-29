@@ -40,7 +40,6 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 venv/
-component/
 dst/
 *_
 log*.txt
