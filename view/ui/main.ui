@@ -66,111 +66,6 @@ p, li { white-space: pre-wrap; }
         </widget>
        </widget>
       </item>
-      <item>
-       <widget class="QGroupBox" name="grpbxButtons">
-        <property name="minimumSize">
-         <size>
-          <width>100</width>
-          <height>0</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>100</width>
-          <height>16777215</height>
-         </size>
-        </property>
-        <property name="title">
-         <string/>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-        <property name="flat">
-         <bool>true</bool>
-        </property>
-        <layout class="QVBoxLayout" name="verticalLayout_3">
-         <item>
-          <widget class="QPushButton" name="pshbtnAnalize">
-           <property name="text">
-            <string>Analize</string>
-           </property>
-           <property name="icon">
-            <iconset resource="../../main.qrc">
-             <normaloff>:/main/ico/setup.jpg</normaloff>:/main/ico/setup.jpg</iconset>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer name="verticalSpacer_2">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>20</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pshbtnCopy">
-           <property name="text">
-            <string>Copy</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer name="verticalSpacer_4">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>20</width>
-             <height>250</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pshbtnOpenFile">
-           <property name="text">
-            <string>Open</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pshbtnSaveFile">
-           <property name="text">
-            <string>Save</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer name="verticalSpacer">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>20</width>
-             <height>96</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item>
-          <widget class="QPushButton" name="pshbtnHelp">
-           <property name="text">
-            <string>Help</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </widget>
-      </item>
      </layout>
     </item>
    </layout>
@@ -211,64 +106,111 @@ p, li { white-space: pre-wrap; }
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="tlbrOperations">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
   <action name="actionExit">
    <property name="icon">
-    <iconset resource="../../main.qrc">
-     <normaloff>:/main/ico/exit.png</normaloff>:/main/ico/exit.png</iconset>
+    <iconset>
+     <normaloff>ico/exit.png</normaloff>ico/exit.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
   </action>
   <action name="actionLoad">
    <property name="icon">
-    <iconset resource="../../main.qrc">
-     <normaloff>:/main/ico/open.png</normaloff>:/main/ico/open.png</iconset>
+    <iconset>
+     <normaloff>ico/open.ico</normaloff>ico/open.ico</iconset>
    </property>
    <property name="text">
     <string>Load</string>
    </property>
+   <property name="toolTip">
+    <string>Load file</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
   </action>
   <action name="actionAnalize">
    <property name="icon">
-    <iconset resource="../../main.qrc">
-     <normaloff>:/main/ico/setup.jpg</normaloff>:/main/ico/setup.jpg</iconset>
+    <iconset>
+     <normaloff>ico/analyze.png</normaloff>ico/analyze.png</iconset>
    </property>
    <property name="text">
-    <string>Analize</string>
+    <string>Analyze</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
    </property>
   </action>
   <action name="actionCopy">
    <property name="icon">
-    <iconset resource="../../main.qrc">
-     <normaloff>:/main/ico/edit.png</normaloff>:/main/ico/edit.png</iconset>
+    <iconset>
+     <normaloff>ico/clipboard.ico</normaloff>ico/clipboard.ico</iconset>
    </property>
    <property name="text">
     <string>Copy</string>
    </property>
+   <property name="toolTip">
+    <string>Copy to clipboard result</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
   </action>
   <action name="actionSave">
+   <property name="icon">
+    <iconset>
+     <normaloff>ico/save.ico</normaloff>ico/save.ico</iconset>
+   </property>
    <property name="text">
     <string>Save</string>
+   </property>
+   <property name="toolTip">
+    <string>Save to file result</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
    </property>
   </action>
   <action name="actionHelp">
    <property name="icon">
-    <iconset resource="../../main.qrc">
-     <normaloff>:/main/ico/help.png</normaloff>:/main/ico/help.png</iconset>
+    <iconset>
+     <normaloff>ico/help.ico</normaloff>ico/help.ico</iconset>
    </property>
    <property name="text">
     <string>Help</string>
    </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
   </action>
   <action name="actionAbout">
+   <property name="icon">
+    <iconset>
+     <normaloff>ico/about.png</normaloff>ico/about.png</iconset>
+   </property>
    <property name="text">
     <string>About</string>
    </property>
+   <property name="shortcut">
+    <string>Shift+F1</string>
+   </property>
   </action>
  </widget>
- <resources>
-  <include location="../../main.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

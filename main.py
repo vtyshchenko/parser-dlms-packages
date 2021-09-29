@@ -11,7 +11,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
 
     try:
-        window = MainView(user_name=user)
+        window = MainView()
         window.show()
         sys.exit(app.exec_())
     except Exception as exc:
