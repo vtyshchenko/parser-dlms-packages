@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="main">
+    <file>ico/add.png</file>
+    <file>ico/add_group.png</file>
+    <file>ico/delete.png</file>
+    <file>ico/edit.png</file>
+    <file>ico/exit.png</file>
+    <file>ico/help.png</file>
+    <file>ico/open.png</file>
+    <file>ico/reload.png</file>
+    <file>ico/setup.jpg</file>
+  </qresource>
+</RCC>

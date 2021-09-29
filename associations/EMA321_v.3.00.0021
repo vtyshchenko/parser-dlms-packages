@@ -1,0 +1,5305 @@
+<?xml version="1.0" ?>
+<Objects>
+  <GXDLMSData>
+    <LN>0.0.29.1.128.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="22">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.29.1.129.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="9">00 32 00 64 01 FF FF FF</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.29.1.130.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="9">02 00 FF FF 00 00 50 03</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.29.1.131.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="17">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.42.0.0.255</LN>
+    <Description>Ch. 0 COSEM Logical device name</Description>
+    <Value Type="9" UIType="10">NIK2030000000100</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.43.1.2.255</LN>
+    <Description>Ch. 0 Invocation counter  #2</Description>
+    <Value Type="6">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.43.1.3.255</LN>
+    <Description>Ch. 0 Invocation counter  #3</Description>
+    <Value Type="6">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.128.43.128.128.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="3">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.0.255</LN>
+    <Description>Ch. 0 Device ID 1, manufacturing number</Description>
+    <Value Type="9" UIType="10">NIK0172009000100</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.1.255</LN>
+    <Description>Ch. 0 Device ID  #2</Description>
+    <Value Type="9" UIType="10">NIK-ELEKTRONIKA LLC</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.2.255</LN>
+    <Description>Ch. 0 Device ID  #3</Description>
+    <Value Type="9" UIType="10">687285-159-02</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.3.255</LN>
+    <Description>Ch. 0 Device ID  #4</Description>
+    <Value Type="9" UIType="10">NIK 2300 ARP6</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.4.255</LN>
+    <Description>Ch. 0 Device ID  #5</Description>
+    <Value Type="9" UIType="10">2300000001012020</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.5.255</LN>
+    <Description>Ch. 0 Device ID  #6</Description>
+    <Value Type="9" UIType="10">Location1</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.6.255</LN>
+    <Description>Ch. 0 Device ID  #7</Description>
+    <Value Type="9" UIType="10">Reserved</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.7.255</LN>
+    <Description>Ch. 0 Device ID  #8</Description>
+    <Value Type="9" UIType="10">Reserved </Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.8.255</LN>
+    <Description>Ch. 0 Device ID  #9</Description>
+    <Value Type="9" UIType="10">QR-code</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.129.96.1.4.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="9">30 30 30 30 30 31 30 30</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.50.0.255</LN>
+    <Description>Ch. 0 Man. spec. abstract object</Description>
+    <Value Type="3">1</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.129.1</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="6">769</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.1.129.10</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="9">53 54 4F 31 5F 37 43 30</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.7.21.255</LN>
+    <Description>Ch. 0 No. of power failures in any phase</Description>
+    <Value Type="18">81</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.7.9.255</LN>
+    <Description>Ch. 0 No. of long power failures in any phase</Description>
+    <Value Type="18">22</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.32.32.0.255</LN>
+    <Description>Ch. 0 L1 Voltage Unipede voltage dip Class 10...&lt;= 15%, 10ms...&lt;= 100ms</Description>
+    <Value Type="18">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.52.32.0.255</LN>
+    <Description>Ch. 0 L2 Voltage Unipede voltage dip Class 10...&lt;= 15%, 10ms...&lt;= 100ms</Description>
+    <Value Type="18">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.72.32.0.255</LN>
+    <Description>Ch. 0 L3 Voltage Unipede voltage dip Class 10...&lt;= 15%, 10ms...&lt;= 100ms</Description>
+    <Value Type="18">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.32.36.0.255</LN>
+    <Description>Ch. 0 L1 Voltage Over limit occurrence counter Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Value Type="18">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.52.36.0.255</LN>
+    <Description>Ch. 0 L2 Voltage Over limit occurrence counter Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Value Type="18">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.72.36.0.255</LN>
+    <Description>Ch. 0 L3 Voltage Over limit occurrence counter Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Value Type="18">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.10.1.255</LN>
+    <Description>Ch. 0 Status register  #1</Description>
+    <Value Type="17">128</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.10.2.255</LN>
+    <Description>Ch. 0 Status register  #2</Description>
+    <Value Type="17">128</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.11.0.255</LN>
+    <Description>Ch. 0 Event code  #1</Description>
+    <Value Type="18">301</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.11.1.255</LN>
+    <Description>Ch. 0 Event code  #2</Description>
+    <Value Type="18">449</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.11.2.255</LN>
+    <Description>Ch. 0 Event code  #3</Description>
+    <Value Type="18">431</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.11.9.255</LN>
+    <Description>Ch. 0 Event code  #10</Description>
+    <Value Type="18">301</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.97.97.0.255</LN>
+    <Description>Ch. 0 Error object  #1</Description>
+    <Value Type="6">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.97.98.0.255</LN>
+    <Description>Ch. 0 Alarm register object  #1</Description>
+    <Value Type="6">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.97.98.1.255</LN>
+    <Description>Ch. 0 Alarm register object  #2</Description>
+    <Value Type="6">2104</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.97.98.10.255</LN>
+    <Description>Ch. 0 Alarm filter object  #1</Description>
+    <Value Type="6">4294967295</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.97.98.11.255</LN>
+    <Description>Ch. 0 Alarm filter object  #2</Description>
+    <Value Type="6">4294967295</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.97.98.20.255</LN>
+    <Description>Ch. 0 Alarm descriptor object  #11</Description>
+    <Value Type="6">10255</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.97.98.21.255</LN>
+    <Description>Ch. 0 Alarm descriptor object  #12</Description>
+    <Value Type="6">249</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.129.96.13.0.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="9">62 69 6C 6C 20 50 45 72 00</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.130.96.13.0.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="9">52 45 4C 41 59 5F 4F 6E 00</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.131.96.13.0.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="9">54 45 53 54 5F 4F 46 46 00</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.129.0.1.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="1">
+      <Item Type="2">
+        <Item Type="18">65530</Item>
+        <Item Type="15">0</Item>
+        <Item Type="17">0</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">339</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">36</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">384</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">36</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">354</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">36</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">339</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">37</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">384</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">37</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">354</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">37</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">83</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">33</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">83</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">35</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">83</Item>
+        <Item Type="15">-6</Item>
+        <Item Type="17">40</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">83</Item>
+        <Item Type="15">-6</Item>
+        <Item Type="17">41</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">83</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">0</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">65532</Item>
+        <Item Type="15">0</Item>
+        <Item Type="17">0</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">65531</Item>
+        <Item Type="15">0</Item>
+        <Item Type="17">0</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">65533</Item>
+        <Item Type="15">0</Item>
+        <Item Type="17">0</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">65534</Item>
+        <Item Type="15">0</Item>
+        <Item Type="17">0</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">65535</Item>
+        <Item Type="15">0</Item>
+        <Item Type="17">0</Item>
+      </Item>
+      <Item Type="2">
+        <Item Type="18">83</Item>
+        <Item Type="15">-3</Item>
+        <Item Type="17">35</Item>
+      </Item>
+    </Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.129.10.0.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="2">
+      <Item Type="6">5</Item>
+      <Item Type="6">0</Item>
+      <Item Type="6">0</Item>
+    </Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.0.2.0.255</LN>
+    <Description>Ch. 0 Active firmware identifier</Description>
+    <Value Type="9" UIType="10">EMA321_v.3.00.0021</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.128.0.2.0.255</LN>
+    <Description>Man. specific</Description>
+    <Value Type="9">41 33 32 31 5F 33 2E 30 30 00</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.0.2.1.255</LN>
+    <Description>Ch. 0 Parameter record number</Description>
+    <Value Type="9" UIType="10">PAR_v_006</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.0.2.8.255</LN>
+    <Description>Ch. 0 Active firmware signature</Description>
+    <Value Type="9" UIType="10">D0 6D AE AE</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.0.9.1.255</LN>
+    <Description>Ch. 0 Local time</Description>
+    <Value Type="9" UIType="27"> 17:46:50</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.0.9.2.255</LN>
+    <Description>Ch. 0 Local date</Description>
+    <Value Type="9" UIType="26">09/22/2020</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.0.9.12.255</LN>
+    <Description>Ch. 0 Billing period reset lockout time (First billing period scheme if there are more than one)</Description>
+    <Value Type="6">15</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.129.129.1.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="2">
+      <Item Type="1">
+        <Item Type="2">
+          <Item Type="6">0</Item>
+          <Item Type="6">136314880</Item>
+          <Item Type="6">156237824</Item>
+          <Item Type="6">89128960</Item>
+          <Item Type="6">89128960</Item>
+        </Item>
+        <Item Type="2">
+          <Item Type="6">0</Item>
+          <Item Type="6">136314880</Item>
+          <Item Type="6">156237824</Item>
+          <Item Type="6">89128960</Item>
+          <Item Type="6">89128960</Item>
+        </Item>
+        <Item Type="2">
+          <Item Type="6">0</Item>
+          <Item Type="6">136314880</Item>
+          <Item Type="6">156237824</Item>
+          <Item Type="6">89128960</Item>
+          <Item Type="6">89128960</Item>
+        </Item>
+      </Item>
+      <Item Type="3">0</Item>
+      <Item Type="3">0</Item>
+      <Item Type="22">0</Item>
+    </Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.129.96.1.7.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Value Type="2">
+      <Item Type="17">162</Item>
+      <Item Type="17">172</Item>
+      <Item Type="17">118</Item>
+    </Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.50.6.255</LN>
+    <Description>Ch. 0 Man. spec. abstract object</Description>
+    <Value Type="18">1000</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.14.0.255</LN>
+    <Description>Ch. 0 Currently active tariff  #1</Description>
+    <Value Type="9">72 61 74 65 00 00 00 00</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.0.8.0.255</LN>
+    <Description>Ch. 0 Measurement period 1, for averaging scheme 1</Description>
+    <Value Type="6">1800</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.0.8.2.255</LN>
+    <Description>Ch. 0 Measurement period 3, for instantaneous value</Description>
+    <Value Type="6">900</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.96.50.0.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Value Type="5">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.96.50.1.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Value Type="17">1</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.96.50.3.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Value Type="17">5</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.96.50.4.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Value Type="18">0</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>1.0.96.50.5.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Value Type="6">100</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.14.15.255</LN>
+    <Description>Ch. 0 Currently active tariff  #16</Description>
+    <Value Type="9">31 72 61 74 65</Value>
+  </GXDLMSData>
+  <GXDLMSData>
+    <LN>0.0.96.51.0.255</LN>
+    <Description>Ch. 0 Man. spec. abstract object</Description>
+    <Value Type="5">0</Value>
+  </GXDLMSData>
+  <GXDLMSRegister>
+    <LN>1.0.0.9.11.255</LN>
+    <Description>Ch. 0 Clock time shift limit</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="17">60</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>0.0.96.9.0.255</LN>
+    <Description>Ch. 0 Ambient temperature</Description>
+    <Unit>9</Unit>
+    <Scaler>0.1</Scaler>
+    <Value Type="5" UIType="24">23.200000000000003</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>0.0.96.6.3.255</LN>
+    <Description>Ch. 0 Battery voltage</Description>
+    <Unit>35</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="5" UIType="24">3.592</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">58350</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">29181</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">50630</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">50496</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.5.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QI Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">25467</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.6.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QII Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">25162</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.7.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIII Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">25313</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.8.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIV Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">25181</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">87540</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">58337</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">87531</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">29169</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.17.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QI Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">43519</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.18.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QII Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">14714</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.19.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIII Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">14464</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.20.8.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIV Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">14829</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.21.8.0.255</LN>
+    <Description>Ch. 0 L1 Active power+ (QI+QIV) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">19427</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.22.8.0.255</LN>
+    <Description>Ch. 0 L1 Active power- (QII+QIII) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">9718</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.29.8.0.255</LN>
+    <Description>Ch. 0 L1 Apparent power+ (QI+QIV) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">29145</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.30.8.0.255</LN>
+    <Description>Ch. 0 L1 Apparent power- (QII+QIII) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">19429</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.35.8.0.255</LN>
+    <Description>Ch. 0 L1 Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">29145</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.36.8.0.255</LN>
+    <Description>Ch. 0 L1 Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">9709</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.41.8.0.255</LN>
+    <Description>Ch. 0 L2 Active power+ (QI+QIV) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">19485</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.42.8.0.255</LN>
+    <Description>Ch. 0 L2 Active power- (QII+QIII) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">9739</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.49.8.0.255</LN>
+    <Description>Ch. 0 L2 Apparent power+ (QI+QIV) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">29231</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.50.8.0.255</LN>
+    <Description>Ch. 0 L2 Apparent power- (QII+QIII) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">19473</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.55.8.0.255</LN>
+    <Description>Ch. 0 L2 Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">29224</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.56.8.0.255</LN>
+    <Description>Ch. 0 L2 Active power (abs(QI+QIV)-abs(QI+QIII)) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">9746</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.61.8.0.255</LN>
+    <Description>Ch. 0 L3 Active power+ (QI+QIV) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">19438</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.62.8.0.255</LN>
+    <Description>Ch. 0 L3 Active power- (QII+QIII) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">9724</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.69.8.0.255</LN>
+    <Description>Ch. 0 L3 Apparent power+ (QI+QIV) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">29164</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.70.8.0.255</LN>
+    <Description>Ch. 0 L3 Apparent power- (QII+QIII) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">19435</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.75.8.0.255</LN>
+    <Description>Ch. 0 L3 Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">29162</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.76.8.0.255</LN>
+    <Description>Ch. 0 L3 Active power (abs(QI+QIV)-abs(QI+QIII)) Time integral 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">9714</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">34</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.5.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QI Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.6.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QII Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.7.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIII Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.8.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIV Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">35</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">34</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">34</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.17.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QI Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">26</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.18.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QII Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.19.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIII Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.20.9.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIV Time integral 2 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">9</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 5</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 5</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 5</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 5</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.5.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QI Time integral 5</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.6.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QII Time integral 5</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.7.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIII Time integral 5</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.8.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIV Time integral 5</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 5</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 5</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 5</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 5</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.17.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QI Time integral 5</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.18.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QII Time integral 5</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.19.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIII Time integral 5</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.20.29.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIV Time integral 5</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 6</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">34</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 6</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 6</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 6</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.5.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QI Time integral 6</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.6.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QII Time integral 6</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.7.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIII Time integral 6</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.8.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIV Time integral 6</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 6</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">35</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 6</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 6</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">34</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 6</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">34</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.17.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QI Time integral 6</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">25</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.18.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QII Time integral 6</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.19.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIII Time integral 6</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.20.30.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIV Time integral 6</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">9</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.8.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 1 Rate 1 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">17</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.8.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 1 Rate 1 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.8.1.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 1 Rate 1 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.8.1.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 1 Rate 1 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.8.1.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 1 Rate 1 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">17</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.8.1.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 1 Rate 1 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.8.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 1 Rate 1 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">17</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.8.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 1 Rate 1 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">17</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.8.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 1 Rate 2 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">9</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.8.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 1 Rate 2 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.8.2.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 1 Rate 2 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.8.2.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 1 Rate 2 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.8.2.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 1 Rate 2 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">9</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.8.2.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 1 Rate 2 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.8.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 1 Rate 2 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">9</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.8.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 1 Rate 2 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">9</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.8.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 1 Rate 3 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">3</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.8.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 1 Rate 3 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.8.3.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 1 Rate 3 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.8.3.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 1 Rate 3 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.8.3.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 1 Rate 3 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">3</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.8.3.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 1 Rate 3 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.8.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 1 Rate 3 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">3</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.8.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 1 Rate 3 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">3</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.8.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 1 Rate 4 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">58321</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.8.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 1 Rate 4 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">29181</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.8.4.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 1 Rate 4 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">50630</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.8.4.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 1 Rate 4 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">50496</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.8.4.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 1 Rate 4 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">87511</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.8.4.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 1 Rate 4 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">58337</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.8.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 1 Rate 4 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">87502</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.8.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 1 Rate 4 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">29140</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.9.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 2 Rate 1 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.9.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 2 Rate 1 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.9.1.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 2 Rate 1 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.9.1.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 2 Rate 1 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.9.1.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 2 Rate 1 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.9.1.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 2 Rate 1 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.9.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 2 Rate 1 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.9.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 2 Rate 1 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.9.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 2 Rate 2 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.9.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 2 Rate 2 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.9.2.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 2 Rate 2 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.9.2.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 2 Rate 2 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.9.2.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 2 Rate 2 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.9.2.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 2 Rate 2 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.9.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 2 Rate 2 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.9.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 2 Rate 2 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.9.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 2 Rate 3 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.9.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 2 Rate 3 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.9.3.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 2 Rate 3 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.9.3.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 2 Rate 3 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.9.3.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 2 Rate 3 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.9.3.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 2 Rate 3 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.9.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 2 Rate 3 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.9.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 2 Rate 3 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.9.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Time integral 2 Rate 4 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.9.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Time integral 2 Rate 4 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.9.4.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Time integral 2 Rate 4 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.9.4.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Time integral 2 Rate 4 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.9.4.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Time integral 2 Rate 4 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.9.4.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Time integral 2 Rate 4 (0 is total)</Description>
+    <Unit>31</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.9.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Time integral 2 Rate 4 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.9.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Time integral 2 Rate 4 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="5">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.2.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Cum. max. 1 Rate 0 (0 is total)</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">18181554</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.2.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Cum. max. 1 Rate 0 (0 is total)</Description>
+    <Unit>32</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">15087841</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.65.0.0.0.255</LN>
+    <Description>Ch. 65 Utility specific objects</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">58350</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.65.0.0.1.255</LN>
+    <Description>Ch. 65 Utility specific objects</Description>
+    <Unit>30</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">87531</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.1.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.21.7.0.255</LN>
+    <Description>Ch. 0 L1 Active power+ (QI+QIV) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.41.7.0.255</LN>
+    <Description>Ch. 0 L2 Active power+ (QI+QIV) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.61.7.0.255</LN>
+    <Description>Ch. 0 L3 Active power+ (QI+QIV) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.2.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.22.7.0.255</LN>
+    <Description>Ch. 0 L1 Active power- (QII+QIII) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.42.7.0.255</LN>
+    <Description>Ch. 0 L2 Active power- (QII+QIII) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.62.7.0.255</LN>
+    <Description>Ch. 0 L3 Active power- (QII+QIII) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.3.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.23.7.0.255</LN>
+    <Description>Ch. 0 L1 Reactive power+ (QI+QII) Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.43.7.0.255</LN>
+    <Description>Ch. 0 L2 Reactive power+ (QI+QII) Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.63.7.0.255</LN>
+    <Description>Ch. 0 L3 Reactive power+ (QI+QII) Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.4.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.24.7.0.255</LN>
+    <Description>Ch. 0 L1 Reactive power- (QIII+QIV) Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.44.7.0.255</LN>
+    <Description>Ch. 0 L2 Reactive power- (QIII+QIV) Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.64.7.0.255</LN>
+    <Description>Ch. 0 L3 Reactive power- (QIII+QIV) Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.5.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QI Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.25.7.0.255</LN>
+    <Description>Ch. 0 L1 Reactive power QI Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.45.7.0.255</LN>
+    <Description>Ch. 0 L2 Reactive power QI Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.65.7.0.255</LN>
+    <Description>Ch. 0 L3 Reactive power QI Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.6.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QII Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.26.7.0.255</LN>
+    <Description>Ch. 0 L1 Reactive power QII Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.46.7.0.255</LN>
+    <Description>Ch. 0 L2 Reactive power QII Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.66.7.0.255</LN>
+    <Description>Ch. 0 L3 Reactive power QII Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.7.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIII Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.27.7.0.255</LN>
+    <Description>Ch. 0 L1 Reactive power QIII Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.47.7.0.255</LN>
+    <Description>Ch. 0 L2 Reactive power QIII Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.67.7.0.255</LN>
+    <Description>Ch. 0 L3 Reactive power QIII Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.8.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power QIV Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.28.7.0.255</LN>
+    <Description>Ch. 0 L1 Reactive power QIV Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.48.7.0.255</LN>
+    <Description>Ch. 0 L2 Reactive power QIV Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.68.7.0.255</LN>
+    <Description>Ch. 0 L3 Reactive power QIV Inst. value</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.9.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Inst. value</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.29.7.0.255</LN>
+    <Description>Ch. 0 L1 Apparent power+ (QI+QIV) Inst. value</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.49.7.0.255</LN>
+    <Description>Ch. 0 L2 Apparent power+ (QI+QIV) Inst. value</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.69.7.0.255</LN>
+    <Description>Ch. 0 L3 Apparent power+ (QI+QIV) Inst. value</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.10.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Inst. value</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.30.7.0.255</LN>
+    <Description>Ch. 0 L1 Apparent power- (QII+QIII) Inst. value</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.50.7.0.255</LN>
+    <Description>Ch. 0 L2 Apparent power- (QII+QIII) Inst. value</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.70.7.0.255</LN>
+    <Description>Ch. 0 L3 Apparent power- (QII+QIII) Inst. value</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.11.7.0.255</LN>
+    <Description>Ch. 0 Current: any phase Inst. value</Description>
+    <Unit>33</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.47400000000000003</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.31.7.0.255</LN>
+    <Description>Ch. 0 L1 Current Inst. value</Description>
+    <Unit>33</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.47400000000000003</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.51.7.0.255</LN>
+    <Description>Ch. 0 L2 Current Inst. value</Description>
+    <Unit>33</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.71.7.0.255</LN>
+    <Description>Ch. 0 L3 Current Inst. value</Description>
+    <Unit>33</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.12.7.0.255</LN>
+    <Description>Ch. 0 Voltage: any phase Inst. value</Description>
+    <Unit>35</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">223.681</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.32.7.0.255</LN>
+    <Description>Ch. 0 L1 Voltage Inst. value</Description>
+    <Unit>35</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">223.681</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.52.7.0.255</LN>
+    <Description>Ch. 0 L2 Voltage Inst. value</Description>
+    <Unit>35</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.72.7.0.255</LN>
+    <Description>Ch. 0 L3 Voltage Inst. value</Description>
+    <Unit>35</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.13.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Power factor Inst. value</Description>
+    <Unit>255</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="5" UIType="24">1.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.33.7.0.255</LN>
+    <Description>Ch. 0 L1 Power factor Inst. value</Description>
+    <Unit>255</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="5" UIType="24">1.012</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.53.7.0.255</LN>
+    <Description>Ch. 0 L2 Power factor Inst. value</Description>
+    <Unit>255</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="5" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.73.7.0.255</LN>
+    <Description>Ch. 0 L3 Power factor Inst. value</Description>
+    <Unit>255</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="5" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.14.7.0.255</LN>
+    <Description>Ch. 0 Supply frequency Inst. value</Description>
+    <Unit>44</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">49.928000000000004</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.34.7.0.255</LN>
+    <Description>Ch. 0 L1 Supply frequency Inst. value</Description>
+    <Unit>44</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">49.928000000000004</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.54.7.0.255</LN>
+    <Description>Ch. 0 L2 Supply frequency Inst. value</Description>
+    <Unit>44</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.74.7.0.255</LN>
+    <Description>Ch. 0 L3 Supply frequency Inst. value</Description>
+    <Unit>44</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.15.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.35.7.0.255</LN>
+    <Description>Ch. 0 L1 Active power (abs(QI+QIV)+abs(QII+QIII)) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.55.7.0.255</LN>
+    <Description>Ch. 0 L2 Active power (abs(QI+QIV)+abs(QII+QIII)) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.75.7.0.255</LN>
+    <Description>Ch. 0 L3 Active power (abs(QI+QIV)+abs(QII+QIII)) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.16.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)-abs(QII+QIII)) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="5" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.36.7.0.255</LN>
+    <Description>Ch. 0 L1 Active power (abs(QI+QIV)-abs(QII+QIII)) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="5" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.56.7.0.255</LN>
+    <Description>Ch. 0 L2 Active power (abs(QI+QIV)-abs(QI+QIII)) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="5" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.76.7.0.255</LN>
+    <Description>Ch. 0 L3 Active power (abs(QI+QIV)-abs(QI+QIII)) Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="5" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.17.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QI Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.37.7.0.255</LN>
+    <Description>Ch. 0 L1 Active power QI Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">107.59</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.57.7.0.255</LN>
+    <Description>Ch. 0 L2 Active power QI Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.77.7.0.255</LN>
+    <Description>Ch. 0 L3 Active power QI Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.18.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QII Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.38.7.0.255</LN>
+    <Description>Ch. 0 L1 Active power QII Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.58.7.0.255</LN>
+    <Description>Ch. 0 L2 Active power QII Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.78.7.0.255</LN>
+    <Description>Ch. 0 L3 Active power QII Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.19.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIII Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.39.7.0.255</LN>
+    <Description>Ch. 0 L1 Active power QIII Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.59.7.0.255</LN>
+    <Description>Ch. 0 L2 Active power QIII Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.79.7.0.255</LN>
+    <Description>Ch. 0 L3 Active power QIII Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.20.7.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power QIV Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.40.7.0.255</LN>
+    <Description>Ch. 0 L1 Active power QIV Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.60.7.0.255</LN>
+    <Description>Ch. 0 L2 Active power QIV Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.80.7.0.255</LN>
+    <Description>Ch. 0 L3 Active power QIV Inst. value</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.81.7.0.255</LN>
+    <Description>Ch. 0 Angle of U(L1) - U(L1)</Description>
+    <Unit>8</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.81.7.10.255</LN>
+    <Description>Ch. 0 Angle of U(L1) - U(L2)</Description>
+    <Unit>8</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">118</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.81.7.20.255</LN>
+    <Description>Ch. 0 Angle of U(L1) - U(L3)</Description>
+    <Unit>8</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">238</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.90.7.0.255</LN>
+    <Description>Ch. 0 SLi current (algebraic sum of the - unsigned - value of the currents in all phases) Inst. value</Description>
+    <Unit>33</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.47400000000000003</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>0.0.96.7.20.255</LN>
+    <Description>Ch. 0 Time threshold for long of power failure</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">10</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>0.0.96.7.19.255</LN>
+    <Description>Ch. 0 Duration of long power failure in any phase</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="6">5396</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.12.31.0.255</LN>
+    <Description>Ch. 0 Voltage: any phase Under limit threshold Harmonic / Distortion factor 0 Threshold 255</Description>
+    <Unit>35</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">190</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.12.43.0.255</LN>
+    <Description>Ch. 0 Voltage: any phase Time threshold for under limit Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">30</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.32.33.0.255</LN>
+    <Description>Ch. 0 L1 Voltage Under limit duration Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.52.33.0.255</LN>
+    <Description>Ch. 0 L2 Voltage Under limit duration Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.72.33.0.255</LN>
+    <Description>Ch. 0 L3 Voltage Under limit duration Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.32.34.0.255</LN>
+    <Description>Ch. 0 L1 Voltage Under limit magnitude Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>35</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.52.34.0.255</LN>
+    <Description>Ch. 0 L2 Voltage Under limit magnitude Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>35</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.72.34.0.255</LN>
+    <Description>Ch. 0 L3 Voltage Under limit magnitude Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>35</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.12.35.0.255</LN>
+    <Description>Ch. 0 Voltage: any phase Over limit threshold Harmonic / Distortion factor 0 Threshold 255</Description>
+    <Unit>35</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">250</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.12.44.0.255</LN>
+    <Description>Ch. 0 Voltage: any phase Time threshold for over limit Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">30</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.32.37.0.255</LN>
+    <Description>Ch. 0 L1 Voltage Over limit duration Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.52.37.0.255</LN>
+    <Description>Ch. 0 L2 Voltage Over limit duration Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.72.37.0.255</LN>
+    <Description>Ch. 0 L3 Voltage Over limit duration Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.32.38.0.255</LN>
+    <Description>Ch. 0 L1 Voltage Over limit magnitude Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>35</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.52.38.0.255</LN>
+    <Description>Ch. 0 L2 Voltage Over limit magnitude Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>35</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.72.38.0.255</LN>
+    <Description>Ch. 0 L3 Voltage Over limit magnitude Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>35</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.12.39.0.255</LN>
+    <Description>Ch. 0 Voltage: any phase Missing threshold Harmonic / Distortion factor 0 Threshold 255</Description>
+    <Unit>35</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">140</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.12.45.0.255</LN>
+    <Description>Ch. 0 Voltage: any phase Time threshold of missing magnitude Harmonic / Distortion factor 0 Billing period 255 (255 is current)</Description>
+    <Unit>7</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">5</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.96.50.2.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Unit>35</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">18.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.0.6.0.255</LN>
+    <Description>Ch. 0 Nominal voltage</Description>
+    <Unit>35</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">220.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.0.6.1.255</LN>
+    <Description>Ch. 0 Basic/nominal current</Description>
+    <Unit>33</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">5.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.0.6.2.255</LN>
+    <Description>Ch. 0 Nominal frequency</Description>
+    <Unit>44</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">50.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.0.6.3.255</LN>
+    <Description>Ch. 0 Maximum current</Description>
+    <Unit>33</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">100.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.96.50.6.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Unit>33</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">5.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.96.50.7.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Unit>35</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">220.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.96.50.8.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">1100.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.96.50.9.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.96.50.10.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Unit>255</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">1.0</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.96.50.11.255</LN>
+    <Description>Ch. 0 Manufacturer specific</Description>
+    <Unit>255</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.5</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.0.3.3.255</LN>
+    <Description>Ch. 0 Meter constant Active energy, output pulse</Description>
+    <Unit>45</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">8000</Value>
+  </GXDLMSRegister>
+  <GXDLMSRegister>
+    <LN>1.0.0.3.4.255</LN>
+    <Description>Ch. 0 Meter constant Reactive energy, output pulse</Description>
+    <Unit>46</Unit>
+    <Scaler>1.0</Scaler>
+    <Value Type="18">8000</Value>
+  </GXDLMSRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.1.6.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Max. 1 Rate 0 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">1788.347</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.1.6.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Max. 1 Rate 1 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.1.6.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Max. 1 Rate 2 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.1.6.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Max. 1 Rate 3 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.1.6.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Max. 1 Rate 4 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.2.6.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Max. 1 Rate 0 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.013000000000000001</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.2.6.1.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Max. 1 Rate 1 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.2.6.2.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Max. 1 Rate 2 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.2.6.3.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Max. 1 Rate 3 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.2.6.4.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Max. 1 Rate 4 (0 is total)</Description>
+    <Unit>27</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.3.6.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Max. 1 Rate 0 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.017</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.3.6.1.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Max. 1 Rate 1 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.3.6.2.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Max. 1 Rate 2 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.3.6.3.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Max. 1 Rate 3 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.3.6.4.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Max. 1 Rate 4 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.4.6.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Max. 1 Rate 0 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">3029.415</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.4.6.1.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Max. 1 Rate 1 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.4.6.2.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Max. 1 Rate 2 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.4.6.3.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Max. 1 Rate 3 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.4.6.4.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Max. 1 Rate 4 (0 is total)</Description>
+    <Unit>29</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.9.6.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Max. 1 Rate 0 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">3528.013</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.9.6.1.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Max. 1 Rate 1 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.9.6.2.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Max. 1 Rate 2 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.9.6.3.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Max. 1 Rate 3 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.9.6.4.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Max. 1 Rate 4 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.10.6.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Max. 1 Rate 0 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6" UIType="24">0.024</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.10.6.1.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Max. 1 Rate 1 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.10.6.2.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Max. 1 Rate 2 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.10.6.3.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Max. 1 Rate 3 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSExtendedRegister>
+    <LN>1.0.10.6.4.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Max. 1 Rate 4 (0 is total)</Description>
+    <Unit>28</Unit>
+    <Scaler>0.001</Scaler>
+    <Value Type="6">0</Value>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/20/2020 23:16:04+02:00</CaptureTime>
+  </GXDLMSExtendedRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.1.4.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Current avg. 1 Rate 0 (0 is total)</Description>
+    <CurrentAverageValue Type="23" UIType="24">66.406</CurrentAverageValue>
+    <LastAverageValue Type="23" UIType="24">78.46000000000001</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>27</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:07:29+02:00</StartTimeCurrent>
+    <Period>1800</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.2.4.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power- (QII+QIII) Current avg. 1 Rate 0 (0 is total)</Description>
+    <CurrentAverageValue Type="6">0</CurrentAverageValue>
+    <LastAverageValue Type="6">0</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>27</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:07:29+02:00</StartTimeCurrent>
+    <Period>1800</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.3.4.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power+ (QI+QII) Current avg. 1 Rate 0 (0 is total)</Description>
+    <CurrentAverageValue Type="6">0</CurrentAverageValue>
+    <LastAverageValue Type="23" UIType="24">0.002</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>29</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:07:29+02:00</StartTimeCurrent>
+    <Period>1800</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.4.4.0.255</LN>
+    <Description>Ch. 0 Sum Li Reactive power- (QIII+QIV) Current avg. 1 Rate 0 (0 is total)</Description>
+    <CurrentAverageValue Type="6">0</CurrentAverageValue>
+    <LastAverageValue Type="23" UIType="24">0.06</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>29</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:07:29+02:00</StartTimeCurrent>
+    <Period>1800</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.9.4.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power+ (QI+QIV) Current avg. 1 Rate 0 (0 is total)</Description>
+    <CurrentAverageValue Type="23" UIType="24">66.646</CurrentAverageValue>
+    <LastAverageValue Type="23" UIType="24">78.46000000000001</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>28</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:07:29+02:00</StartTimeCurrent>
+    <Period>1800</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.10.4.0.255</LN>
+    <Description>Ch. 0 Sum Li Apparent power- (QII+QIII) Current avg. 1 Rate 0 (0 is total)</Description>
+    <CurrentAverageValue Type="6">0</CurrentAverageValue>
+    <LastAverageValue Type="6">0</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>28</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:07:29+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:07:29+02:00</StartTimeCurrent>
+    <Period>1800</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.1.24.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power+ (QI+QIV) Current avg. 3</Description>
+    <CurrentAverageValue Type="23" UIType="24">25.941</CurrentAverageValue>
+    <LastAverageValue Type="23" UIType="24">107.59</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>27</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:45:01+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:45:01+02:00</StartTimeCurrent>
+    <Period>900</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.15.24.0.255</LN>
+    <Description>Ch. 0 Sum Li Active power (abs(QI+QIV)+abs(QII+QIII)) Current avg. 3</Description>
+    <CurrentAverageValue Type="23" UIType="24">26.060000000000002</CurrentAverageValue>
+    <LastAverageValue Type="23" UIType="24">107.59</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>27</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:45:01+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:45:01+02:00</StartTimeCurrent>
+    <Period>900</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.31.24.0.255</LN>
+    <Description>Ch. 0 L1 Current Current avg. 3</Description>
+    <CurrentAverageValue Type="23" UIType="24">0.115</CurrentAverageValue>
+    <LastAverageValue Type="23" UIType="24">0.47400000000000003</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>33</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:45:01+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:45:01+02:00</StartTimeCurrent>
+    <Period>900</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSDemandRegister>
+    <LN>1.0.32.24.0.255</LN>
+    <Description>Ch. 0 L1 Voltage Current avg. 3</Description>
+    <CurrentAverageValue Type="23" UIType="24">54.677</CurrentAverageValue>
+    <LastAverageValue Type="23" UIType="24">223.681</LastAverageValue>
+    <Scaler>0.001</Scaler>
+    <Unit>35</Unit>
+    <Status Type="17">0</Status>
+    <CaptureTime>09/22/2020 17:45:01+02:00</CaptureTime>
+    <StartTimeCurrent>09/22/2020 17:45:01+02:00</StartTimeCurrent>
+    <Period>900</Period>
+    <NumberOfPeriods>1</NumberOfPeriods>
+  </GXDLMSDemandRegister>
+  <GXDLMSRegisterActivation>
+    <LN>0.0.14.0.1.255</LN>
+    <Description>Ch. 0 Register activation  #2</Description>
+    <RegisterAssignment>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.8.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.8.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.8.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.8.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.2.8.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.2.8.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.2.8.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.2.8.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.3.8.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.3.8.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.3.8.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.3.8.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.4.8.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.4.8.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.4.8.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.4.8.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.9.8.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.9.8.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.9.8.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.9.8.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.10.8.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.10.8.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.10.8.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.10.8.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.15.8.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.15.8.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.15.8.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.15.8.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.16.8.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.16.8.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.16.8.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.16.8.4.255</LN>
+      </Item>
+    </RegisterAssignment>
+    <MaskList>
+      <Item>
+        <Mask>31 72 61 74 65</Mask>
+        <Index>00;04;08;0C;10;14;18;1C</Index>
+      </Item>
+      <Item>
+        <Mask>32 72 61 74 65</Mask>
+        <Index>01;05;09;0D;11;15;19;1D</Index>
+      </Item>
+      <Item>
+        <Mask>33 72 61 74 65</Mask>
+        <Index>02;06;0A;0E;12;16;1A;1E</Index>
+      </Item>
+      <Item>
+        <Mask>34 72 61 74 65</Mask>
+        <Index>03;07;0B;0F;13;17;1B;1F</Index>
+      </Item>
+    </MaskList>
+    <ActiveMask>34 72 61 74 65</ActiveMask>
+  </GXDLMSRegisterActivation>
+  <GXDLMSRegisterActivation>
+    <LN>0.0.14.0.2.255</LN>
+    <Description>Ch. 0 Register activation  #3</Description>
+    <RegisterAssignment>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.1.6.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.2.6.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.3.6.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.4.6.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.9.6.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.10.6.1.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.1.6.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.2.6.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.3.6.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.4.6.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.9.6.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.10.6.2.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.1.6.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.2.6.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.3.6.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.4.6.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.9.6.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.10.6.3.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.1.6.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.2.6.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.3.6.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.4.6.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.9.6.4.255</LN>
+      </Item>
+      <Item>
+        <ObjectType>4</ObjectType>
+        <LN>1.0.10.6.4.255</LN>
+      </Item>
+    </RegisterAssignment>
+    <MaskList>
+      <Item>
+        <Mask>31 72 61 74 65</Mask>
+        <Index>00;01;02;03;04;05</Index>
+      </Item>
+      <Item>
+        <Mask>32 72 61 74 65</Mask>
+        <Index>06;07;08;09;0A;0B</Index>
+      </Item>
+      <Item>
+        <Mask>33 72 61 74 65</Mask>
+        <Index>0C;0D;0E;0F;10;11</Index>
+      </Item>
+      <Item>
+        <Mask>34 72 61 74 65</Mask>
+        <Index>12;13;14;15;16;17</Index>
+      </Item>
+    </MaskList>
+    <ActiveMask>34 72 61 74 65</ActiveMask>
+  </GXDLMSRegisterActivation>
+  <GXDLMSProfileGeneric>
+    <LN>0.0.99.98.0.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Event log  #1</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>8</ObjectType>
+        <LN>0.0.1.0.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>7</ObjectType>
+        <LN>0.0.99.98.0.255</LN>
+        <Attribute>-1</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>1</ObjectType>
+        <LN>0.0.96.11.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>1</ObjectType>
+        <LN>1.0.0.2.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>1</ObjectType>
+        <LN>1.0.0.2.1.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>250</EntriesInUse>
+    <ProfileEntries>250</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSProfileGeneric>
+    <LN>0.0.99.98.1.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Event log  #2</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>8</ObjectType>
+        <LN>0.0.1.0.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>7</ObjectType>
+        <LN>0.0.99.98.1.255</LN>
+        <Attribute>-1</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>1</ObjectType>
+        <LN>0.0.96.11.1.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.8.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.31.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.51.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.71.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.32.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.52.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.72.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.33.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.53.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.73.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>250</EntriesInUse>
+    <ProfileEntries>250</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSProfileGeneric>
+    <LN>0.0.99.98.2.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Event log  #3</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>8</ObjectType>
+        <LN>0.0.1.0.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>7</ObjectType>
+        <LN>0.0.99.98.2.255</LN>
+        <Attribute>-1</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>1</ObjectType>
+        <LN>0.0.96.11.2.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.32.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.52.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.72.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>185</EntriesInUse>
+    <ProfileEntries>250</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSProfileGeneric>
+    <LN>0.0.99.98.9.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Event log  #10</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>8</ObjectType>
+        <LN>0.0.1.0.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>7</ObjectType>
+        <LN>0.0.99.98.9.255</LN>
+        <Attribute>-1</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>1</ObjectType>
+        <LN>0.0.96.11.9.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>1</ObjectType>
+        <LN>1.0.0.2.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>1</ObjectType>
+        <LN>1.0.0.2.1.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.8.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.31.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.51.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.71.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.32.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.52.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.72.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.33.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.53.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.73.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>250</EntriesInUse>
+    <ProfileEntries>250</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSProfileGeneric>
+    <LN>0.0.98.1.0.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Data of billing period Scheme 1 #1 Unspecified number of most recent billing periods</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>8</ObjectType>
+        <LN>0.0.1.0.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>7</ObjectType>
+        <LN>0.0.98.1.0.255</LN>
+        <Attribute>-1</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.9.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.2.9.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.3.9.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.4.9.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.15.9.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.2.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.3.2.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>24</EntriesInUse>
+    <ProfileEntries>24</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSProfileGeneric>
+    <LN>1.0.99.1.0.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Load profile with recording period 1  #1</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>8</ObjectType>
+        <LN>0.0.1.0.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>7</ObjectType>
+        <LN>1.0.99.1.0.255</LN>
+        <Attribute>-1</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>8</ObjectType>
+        <LN>0.0.1.0.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>26</EntriesInUse>
+    <ProfileEntries>6140</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSProfileGeneric>
+    <LN>1.0.98.2.0.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Data of billing period Scheme 2 #1 Unspecified number of most recent billing periods</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>8</ObjectType>
+        <LN>0.0.1.0.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>7</ObjectType>
+        <LN>1.0.98.2.0.255</LN>
+        <Attribute>-1</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>8</ObjectType>
+        <LN>0.0.1.0.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.7.0.255</LN>
+        <Attribute>2</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>2</EntriesInUse>
+    <ProfileEntries>365</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSProfileGeneric>
+    <LN>1.0.96.129.0.255</LN>
+    <Version>1</Version>
+    <Description>Man. specific</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.29.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.2.29.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.3.29.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.4.29.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>1</EntriesInUse>
+    <ProfileEntries>1</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSProfileGeneric>
+    <LN>1.0.98.128.5.255</LN>
+    <Version>1</Version>
+    <Description>Man. specific</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.8.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.2.8.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.3.8.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.4.8.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.15.8.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.2.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.3.2.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.65.0.0.1.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.65.0.0.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>1</EntriesInUse>
+    <ProfileEntries>1</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSProfileGeneric>
+    <LN>1.0.98.128.7.255</LN>
+    <Version>1</Version>
+    <Description>Man. specific</Description>
+    <Buffer/>
+    <CaptureObjects>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.1.8.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.31.7.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.51.7.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.71.7.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.32.7.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.52.7.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.72.7.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.33.7.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.53.7.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <ObjectType>3</ObjectType>
+        <LN>1.0.73.7.0.255</LN>
+        <Attribute>3</Attribute>
+        <Data>0</Data>
+      </Item>
+    </CaptureObjects>
+    <CapturePeriod>0</CapturePeriod>
+    <SortMethod>1</SortMethod>
+    <EntriesInUse>1</EntriesInUse>
+    <ProfileEntries>1</ProfileEntries>
+  </GXDLMSProfileGeneric>
+  <GXDLMSClock>
+    <LN>0.0.1.0.0.255</LN>
+    <Description>Ch. 0 Clock object  #1</Description>
+    <Time>09/22/2020 17:48:48+02:00</Time>
+    <TimeZone>-120</TimeZone>
+    <Status>0</Status>
+    <Begin>03/01/* 03:00:00</Begin>
+    <End>10/01/* 04:00:00</End>
+    <Deviation>60</Deviation>
+    <Enabled>0</Enabled>
+    <ClockBase>1</ClockBase>
+  </GXDLMSClock>
+  <GXDLMSScriptTable>
+    <LN>0.0.10.0.1.255</LN>
+    <Description>Ch. 0 MDI reset / End of billing period</Description>
+    <Scripts>
+      <Script>
+        <ID>1</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>8191</ObjectType>
+            <LN>0.0.130.0.0.255</LN>
+            <Index>5</Index>
+            <ParameterDataType>15</ParameterDataType>
+            <Parameter Type="15">0</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+    </Scripts>
+  </GXDLMSScriptTable>
+  <GXDLMSScriptTable>
+    <LN>0.0.10.0.100.255</LN>
+    <Description>Ch. 0 Tariffication script table</Description>
+    <Scripts>
+      <Script>
+        <ID>1</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>6</ObjectType>
+            <LN>0.0.14.0.1.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>9</ParameterDataType>
+            <Parameter Type="9">31 72 61 74 65</Parameter>
+          </Action>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>6</ObjectType>
+            <LN>0.0.14.0.2.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>9</ParameterDataType>
+            <Parameter Type="9">31 72 61 74 65</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>2</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>6</ObjectType>
+            <LN>0.0.14.0.1.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>9</ParameterDataType>
+            <Parameter Type="9">32 72 61 74 65</Parameter>
+          </Action>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>6</ObjectType>
+            <LN>0.0.14.0.2.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>9</ParameterDataType>
+            <Parameter Type="9">32 72 61 74 65</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>3</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>6</ObjectType>
+            <LN>0.0.14.0.1.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>9</ParameterDataType>
+            <Parameter Type="9">33 72 61 74 65</Parameter>
+          </Action>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>6</ObjectType>
+            <LN>0.0.14.0.2.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>9</ParameterDataType>
+            <Parameter Type="9">33 72 61 74 65</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>4</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>6</ObjectType>
+            <LN>0.0.14.0.1.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>9</ParameterDataType>
+            <Parameter Type="9">34 72 61 74 65</Parameter>
+          </Action>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>6</ObjectType>
+            <LN>0.0.14.0.2.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>9</ParameterDataType>
+            <Parameter Type="9">34 72 61 74 65</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+    </Scripts>
+  </GXDLMSScriptTable>
+  <GXDLMSScriptTable>
+    <LN>0.0.10.0.106.255</LN>
+    <Description>Ch. 0 Disconnect control</Description>
+    <Scripts>
+      <Script>
+        <ID>1</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">2</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>2</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">1</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>3</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>1</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">0</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>4</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>2</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">0</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>5</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">18</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>6</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">17</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>7</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">34</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>8</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">33</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>9</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">50</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>10</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">49</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>13</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>-1</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">0</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>14</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>70</ObjectType>
+            <LN>0.0.96.3.10.255</LN>
+            <Index>-2</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">0</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+    </Scripts>
+  </GXDLMSScriptTable>
+  <GXDLMSScriptTable>
+    <LN>0.0.10.0.107.255</LN>
+    <Description>Ch. 0 Image activation</Description>
+    <Scripts>
+      <Script>
+        <ID>1</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>18</ObjectType>
+            <LN>0.0.44.0.0.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>15</ParameterDataType>
+            <Parameter Type="15">0</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+    </Scripts>
+  </GXDLMSScriptTable>
+  <GXDLMSScriptTable>
+    <LN>0.0.10.0.129.255</LN>
+    <Description>Manufacturer specific</Description>
+    <Scripts>
+      <Script>
+        <ID>1</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>4</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">0</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>2</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>2</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">1</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>3</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">1</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>4</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>2</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">2</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>5</ID>
+        <Actions>
+          <Action>
+            <Type>2</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">2</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>6</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">0</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>7</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">1</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>8</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">2</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>9</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">3</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>10</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">4</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>11</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">5</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>12</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">6</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>13</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">7</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+      <Script>
+        <ID>14</ID>
+        <Actions>
+          <Action>
+            <Type>1</Type>
+            <ObjectType>9006</ObjectType>
+            <LN>0.0.129.0.0.255</LN>
+            <Index>3</Index>
+            <ParameterDataType>17</ParameterDataType>
+            <Parameter Type="17">8</Parameter>
+          </Action>
+        </Actions>
+      </Script>
+    </Scripts>
+  </GXDLMSScriptTable>
+  <GXDLMSScriptTable>
+    <LN>0.0.10.0.130.255</LN>
+    <Description>Manufacturer specific</Description>
+  </GXDLMSScriptTable>
+  <GXDLMSSpecialDaysTable>
+    <LN>0.0.11.0.0.255</LN>
+    <Description>Ch. 0 Special days table  #1</Description>
+    <Entries>
+      <Entry>
+        <Index>0</Index>
+        <Date>01/01/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>1</Index>
+        <Date>01/07/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>2</Index>
+        <Date>01/14/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>3</Index>
+        <Date>03/20/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>4</Index>
+        <Date>04/20/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>5</Index>
+        <Date>05/02/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>6</Index>
+        <Date>05/09/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>7</Index>
+        <Date>05/20/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>8</Index>
+        <Date>05/29/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>9</Index>
+        <Date>06/01/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>10</Index>
+        <Date>06/10/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>11</Index>
+        <Date>06/20/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>12</Index>
+        <Date>06/28/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>13</Index>
+        <Date>07/01/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>14</Index>
+        <Date>07/10/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>15</Index>
+        <Date>07/20/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>16</Index>
+        <Date>08/20/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>17</Index>
+        <Date>08/25/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>18</Index>
+        <Date>09/01/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>19</Index>
+        <Date>09/10/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>20</Index>
+        <Date>09/20/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>21</Index>
+        <Date>09/25/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>22</Index>
+        <Date>10/09/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>23</Index>
+        <Date>10/10/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>24</Index>
+        <Date>10/14/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>25</Index>
+        <Date>10/26/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>26</Index>
+        <Date>11/01/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>27</Index>
+        <Date>11/10/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>28</Index>
+        <Date>11/20/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>29</Index>
+        <Date>11/27/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>30</Index>
+        <Date>12/01/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>31</Index>
+        <Date>12/10/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>32</Index>
+        <Date>12/20/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>33</Index>
+        <Date>12/25/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>34</Index>
+        <Date>12/26/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>35</Index>
+        <Date>12/27/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>36</Index>
+        <Date>12/28/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>37</Index>
+        <Date>12/29/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>38</Index>
+        <Date>12/30/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+      <Entry>
+        <Index>39</Index>
+        <Date>12/31/*</Date>
+        <DayId>7</DayId>
+      </Entry>
+    </Entries>
+  </GXDLMSSpecialDaysTable>
+  <GXDLMSAssociationLogicalName>
+    <LN>0.0.40.0.1.255</LN>
+    <Version>3</Version>
+    <Description>Ch. 0 Association  #1</Description>
+    <ClientSAP>16</ClientSAP>
+    <ServerSAP>1</ServerSAP>
+    <ApplicationContextName>
+      <JointIsoCtt>0</JointIsoCtt>
+      <Country>0</Country>
+      <CountryName>0</CountryName>
+      <IdentifiedOrganization>5</IdentifiedOrganization>
+      <DlmsUA>8</DlmsUA>
+      <ApplicationContext>1</ApplicationContext>
+      <ContextId>1</ContextId>
+    </ApplicationContextName>
+    <XDLMSContextInfo>
+      <Conformance>12072960</Conformance>
+      <MaxReceivePduSize>128</MaxReceivePduSize>
+      <MaxSendPduSize>128</MaxSendPduSize>
+      <DlmsVersionNumber>6</DlmsVersionNumber>
+      <QualityOfService>0</QualityOfService>
+      <CypheringInfo/>
+    </XDLMSContextInfo>
+    <AuthenticationMechanismName>
+      <JointIsoCtt>0</JointIsoCtt>
+      <Country>0</Country>
+      <CountryName>0</CountryName>
+      <IdentifiedOrganization>5</IdentifiedOrganization>
+      <DlmsUA>8</DlmsUA>
+      <AuthenticationMechanismName>2</AuthenticationMechanismName>
+      <MechanismId>0</MechanismId>
+    </AuthenticationMechanismName>
+    <Secret/>
+    <AssociationStatus>0</AssociationStatus>
+    <SecuritySetupReference>0.0.43.0.1.255</SecuritySetupReference>
+  </GXDLMSAssociationLogicalName>
+  <GXDLMSAssociationLogicalName>
+    <LN>0.0.40.0.2.255</LN>
+    <Version>3</Version>
+    <Description>Ch. 0 Association  #2</Description>
+    <ClientSAP>32</ClientSAP>
+    <ServerSAP>1</ServerSAP>
+    <ApplicationContextName>
+      <JointIsoCtt>0</JointIsoCtt>
+      <Country>0</Country>
+      <CountryName>0</CountryName>
+      <IdentifiedOrganization>5</IdentifiedOrganization>
+      <DlmsUA>8</DlmsUA>
+      <ApplicationContext>1</ApplicationContext>
+      <ContextId>3</ContextId>
+    </ApplicationContextName>
+    <XDLMSContextInfo>
+      <Conformance>12072960</Conformance>
+      <MaxReceivePduSize>128</MaxReceivePduSize>
+      <MaxSendPduSize>128</MaxSendPduSize>
+      <DlmsVersionNumber>6</DlmsVersionNumber>
+      <QualityOfService>0</QualityOfService>
+      <CypheringInfo/>
+    </XDLMSContextInfo>
+    <AuthenticationMechanismName>
+      <JointIsoCtt>0</JointIsoCtt>
+      <Country>0</Country>
+      <CountryName>0</CountryName>
+      <IdentifiedOrganization>5</IdentifiedOrganization>
+      <DlmsUA>8</DlmsUA>
+      <AuthenticationMechanismName>2</AuthenticationMechanismName>
+      <MechanismId>1</MechanismId>
+    </AuthenticationMechanismName>
+    <Secret/>
+    <AssociationStatus>0</AssociationStatus>
+    <SecuritySetupReference>0.0.43.0.2.255</SecuritySetupReference>
+  </GXDLMSAssociationLogicalName>
+  <GXDLMSAssociationLogicalName>
+    <LN>0.0.40.0.3.255</LN>
+    <Version>3</Version>
+    <Description>Ch. 0 Association  #3</Description>
+    <ClientSAP>48</ClientSAP>
+    <ServerSAP>1</ServerSAP>
+    <ApplicationContextName>
+      <JointIsoCtt>0</JointIsoCtt>
+      <Country>0</Country>
+      <CountryName>0</CountryName>
+      <IdentifiedOrganization>5</IdentifiedOrganization>
+      <DlmsUA>8</DlmsUA>
+      <ApplicationContext>1</ApplicationContext>
+      <ContextId>3</ContextId>
+    </ApplicationContextName>
+    <XDLMSContextInfo>
+      <Conformance>12072960</Conformance>
+      <MaxReceivePduSize>128</MaxReceivePduSize>
+      <MaxSendPduSize>128</MaxSendPduSize>
+      <DlmsVersionNumber>6</DlmsVersionNumber>
+      <QualityOfService>0</QualityOfService>
+      <CypheringInfo/>
+    </XDLMSContextInfo>
+    <AuthenticationMechanismName>
+      <JointIsoCtt>0</JointIsoCtt>
+      <Country>0</Country>
+      <CountryName>0</CountryName>
+      <IdentifiedOrganization>5</IdentifiedOrganization>
+      <DlmsUA>8</DlmsUA>
+      <AuthenticationMechanismName>2</AuthenticationMechanismName>
+      <MechanismId>1</MechanismId>
+    </AuthenticationMechanismName>
+    <Secret/>
+    <AssociationStatus>0</AssociationStatus>
+    <SecuritySetupReference>0.0.43.0.3.255</SecuritySetupReference>
+  </GXDLMSAssociationLogicalName>
+  <GXDLMSAssociationLogicalName>
+    <LN>0.0.40.0.4.255</LN>
+    <Version>3</Version>
+    <Description>Ch. 0 Association  #4</Description>
+    <ClientSAP>2</ClientSAP>
+    <ServerSAP>1</ServerSAP>
+    <ApplicationContextName>
+      <JointIsoCtt>0</JointIsoCtt>
+      <Country>0</Country>
+      <CountryName>0</CountryName>
+      <IdentifiedOrganization>5</IdentifiedOrganization>
+      <DlmsUA>8</DlmsUA>
+      <ApplicationContext>1</ApplicationContext>
+      <ContextId>1</ContextId>
+    </ApplicationContextName>
+    <XDLMSContextInfo>
+      <Conformance>12072960</Conformance>
+      <MaxReceivePduSize>128</MaxReceivePduSize>
+      <MaxSendPduSize>128</MaxSendPduSize>
+      <DlmsVersionNumber>6</DlmsVersionNumber>
+      <QualityOfService>0</QualityOfService>
+      <CypheringInfo/>
+    </XDLMSContextInfo>
+    <AuthenticationMechanismName>
+      <JointIsoCtt>0</JointIsoCtt>
+      <Country>0</Country>
+      <CountryName>0</CountryName>
+      <IdentifiedOrganization>5</IdentifiedOrganization>
+      <DlmsUA>8</DlmsUA>
+      <AuthenticationMechanismName>2</AuthenticationMechanismName>
+      <MechanismId>1</MechanismId>
+    </AuthenticationMechanismName>
+    <Secret/>
+    <AssociationStatus>2</AssociationStatus>
+    <SecuritySetupReference>0.0.43.0.4.255</SecuritySetupReference>
+  </GXDLMSAssociationLogicalName>
+  <GXDLMSSapAssignment>
+    <LN>0.0.41.0.0.255</LN>
+    <Description>Ch. 0 SAP Assignment</Description>
+    <SapAssignmentList>
+      <Item>
+        <SAP>1</SAP>
+        <LDN>NIK2030000000100</LDN>
+      </Item>
+    </SapAssignmentList>
+  </GXDLMSSapAssignment>
+  <GXDLMSImageTransfer>
+    <LN>0.0.44.0.0.255</LN>
+    <Description>Ch. 0 Image transfer  #0</Description>
+    <ImageBlockSize>80</ImageBlockSize>
+    <ImageTransferredBlocksStatus>0000</ImageTransferredBlocksStatus>
+    <ImageFirstNotTransferredBlockNumber>0</ImageFirstNotTransferredBlockNumber>
+    <ImageTransferEnabled>0</ImageTransferEnabled>
+    <ImageTransferStatus>6</ImageTransferStatus>
+    <ImageActivateInfo/>
+  </GXDLMSImageTransfer>
+  <GXDLMSImageTransfer>
+    <LN>0.0.44.0.1.255</LN>
+    <Description>Ch. 0 Image transfer  #1</Description>
+    <ImageBlockSize>80</ImageBlockSize>
+    <ImageTransferredBlocksStatus>0000</ImageTransferredBlocksStatus>
+    <ImageFirstNotTransferredBlockNumber>0</ImageFirstNotTransferredBlockNumber>
+    <ImageTransferEnabled>0</ImageTransferEnabled>
+    <ImageTransferStatus>7</ImageTransferStatus>
+    <ImageActivateInfo/>
+  </GXDLMSImageTransfer>
+  <GXDLMSIecLocalPortSetup>
+    <LN>0.0.20.0.0.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 IEC optical port setup</Description>
+    <DefaultMode>0</DefaultMode>
+    <DefaultBaudrate>0</DefaultBaudrate>
+    <ProposedBaudrate>5</ProposedBaudrate>
+    <ResponseTime>0</ResponseTime>
+    <DeviceAddress>01</DeviceAddress>
+    <Password1/>
+    <Password2/>
+    <Password5/>
+  </GXDLMSIecLocalPortSetup>
+  <GXDLMSActivityCalendar>
+    <LN>0.0.13.0.0.255</LN>
+    <Description>Ch. 0 Activity calendar  #1</Description>
+    <CalendarNameActive>01</CalendarNameActive>
+    <SeasonProfileActive>
+      <Item>
+        <Name>01</Name>
+        <Start>06/29/2020 00:00:00+02:00</Start>
+        <WeekName>01</WeekName>
+      </Item>
+    </SeasonProfileActive>
+    <WeekProfileTableActive>
+      <Item>
+        <Name>01</Name>
+        <Monday>0</Monday>
+        <Tuesday>0</Tuesday>
+        <Wednesday>0</Wednesday>
+        <Thursday>0</Thursday>
+        <Friday>0</Friday>
+        <Saturday>1</Saturday>
+        <Sunday>1</Sunday>
+      </Item>
+      <Item>
+        <Name>02</Name>
+        <Monday>0</Monday>
+        <Tuesday>0</Tuesday>
+        <Wednesday>0</Wednesday>
+        <Thursday>0</Thursday>
+        <Friday>0</Friday>
+        <Saturday>1</Saturday>
+        <Sunday>1</Sunday>
+      </Item>
+      <Item>
+        <Name>03</Name>
+        <Monday>0</Monday>
+        <Tuesday>0</Tuesday>
+        <Wednesday>0</Wednesday>
+        <Thursday>0</Thursday>
+        <Friday>0</Friday>
+        <Saturday>1</Saturday>
+        <Sunday>1</Sunday>
+      </Item>
+    </WeekProfileTableActive>
+    <DayProfileTableActive>
+      <Item>
+        <DayId>0</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>1</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>2</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>3</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>4</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>5</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>6</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>7</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>4</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>8</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>9</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>10</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>11</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>12</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>13</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>14</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>15</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>16</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>17</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>18</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>19</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>20</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>21</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>22</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>23</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+    </DayProfileTableActive>
+    <CalendarNamePassive>00</CalendarNamePassive>
+    <SeasonProfilePassive>
+      <Item>
+        <Name>01</Name>
+        <Start>01/01/2020 00:00:00+02:00</Start>
+        <WeekName>01</WeekName>
+      </Item>
+    </SeasonProfilePassive>
+    <WeekProfileTablePassive>
+      <Item>
+        <Name>01</Name>
+        <Monday>0</Monday>
+        <Tuesday>0</Tuesday>
+        <Wednesday>0</Wednesday>
+        <Thursday>0</Thursday>
+        <Friday>0</Friday>
+        <Saturday>1</Saturday>
+        <Sunday>1</Sunday>
+      </Item>
+      <Item>
+        <Name>02</Name>
+        <Monday>0</Monday>
+        <Tuesday>0</Tuesday>
+        <Wednesday>0</Wednesday>
+        <Thursday>0</Thursday>
+        <Friday>0</Friday>
+        <Saturday>1</Saturday>
+        <Sunday>1</Sunday>
+      </Item>
+      <Item>
+        <Name>03</Name>
+        <Monday>0</Monday>
+        <Tuesday>0</Tuesday>
+        <Wednesday>0</Wednesday>
+        <Thursday>0</Thursday>
+        <Friday>0</Friday>
+        <Saturday>1</Saturday>
+        <Sunday>1</Sunday>
+      </Item>
+    </WeekProfileTablePassive>
+    <DayProfileTablePassive>
+      <Item>
+        <DayId>0</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>1</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>2</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>3</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>4</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>5</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>6</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>7</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>4</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>8</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>9</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>10</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>11</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>12</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>13</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>14</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>15</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>16</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>17</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>18</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>19</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>20</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>21</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>22</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+      <Item>
+        <DayId>23</DayId>
+        <Actions>
+          <Action>
+            <Start> 00:00:00</Start>
+            <LN>0.0.10.0.100.255</LN>
+            <Selector>2</Selector>
+          </Action>
+        </Actions>
+      </Item>
+    </DayProfileTablePassive>
+    <Time>*/*/* *:*:*</Time>
+  </GXDLMSActivityCalendar>
+  <GXDLMSActionSchedule>
+    <LN>0.0.15.0.0.255</LN>
+    <Description>Ch. 0 End of billing period</Description>
+    <ObjectType>9</ObjectType>
+    <LN>0.0.10.0.1.255</LN>
+    <ExecutedScriptSelector>1</ExecutedScriptSelector>
+    <Type>1</Type>
+    <ExecutionTime>
+      <Time>*/01/* 00:00:00</Time>
+    </ExecutionTime>
+  </GXDLMSActionSchedule>
+  <GXDLMSActionSchedule>
+    <LN>0.0.15.0.1.255</LN>
+    <Description>Ch. 0 Disconnect control</Description>
+    <ObjectType>9</ObjectType>
+    <LN>0.0.10.0.100.255</LN>
+    <ExecutedScriptSelector>0</ExecutedScriptSelector>
+    <Type>1</Type>
+  </GXDLMSActionSchedule>
+  <GXDLMSActionSchedule>
+    <LN>0.0.15.0.2.255</LN>
+    <Description>Ch. 0 Image activation</Description>
+    <ObjectType>9</ObjectType>
+    <LN>0.0.10.0.107.255</LN>
+    <ExecutedScriptSelector>1</ExecutedScriptSelector>
+    <Type>1</Type>
+    <ExecutionTime>
+      <Time>*/05/* 06:00:00</Time>
+    </ExecutionTime>
+  </GXDLMSActionSchedule>
+  <GXDLMSIecHdlcSetup>
+    <LN>0.0.22.0.0.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 IEC HDLC setup</Description>
+    <Speed>5</Speed>
+    <WindowSizeTx>1</WindowSizeTx>
+    <WindowSizeRx>1</WindowSizeRx>
+    <MaximumInfoLengthTx>128</MaximumInfoLengthTx>
+    <MaximumInfoLengthRx>128</MaximumInfoLengthRx>
+    <InterCharachterTimeout>500</InterCharachterTimeout>
+    <InactivityTimeout>180</InactivityTimeout>
+    <DeviceAddress>1101</DeviceAddress>
+  </GXDLMSIecHdlcSetup>
+  <GXDLMSIecHdlcSetup>
+    <LN>0.1.22.0.0.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 1 IEC HDLC setup</Description>
+    <Speed>5</Speed>
+    <WindowSizeTx>1</WindowSizeTx>
+    <WindowSizeRx>1</WindowSizeRx>
+    <MaximumInfoLengthTx>128</MaximumInfoLengthTx>
+    <MaximumInfoLengthRx>128</MaximumInfoLengthRx>
+    <InterCharachterTimeout>500</InterCharachterTimeout>
+    <InactivityTimeout>30</InactivityTimeout>
+    <DeviceAddress>1101</DeviceAddress>
+  </GXDLMSIecHdlcSetup>
+  <GXDLMSSecuritySetup>
+    <LN>0.0.43.0.1.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Security setup  #1</Description>
+    <SecurityPolicy>0</SecurityPolicy>
+    <SecuritySuite>0</SecuritySuite>
+    <ClientSystemTitle>00 00 02 20 15 44 00 08</ClientSystemTitle>
+    <ServerSystemTitle>4E 49 4B 11 10 00 00 64</ServerSystemTitle>
+    <Certificates/>
+  </GXDLMSSecuritySetup>
+  <GXDLMSSecuritySetup>
+    <LN>0.0.43.0.2.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Security setup  #2</Description>
+    <SecurityPolicy>108</SecurityPolicy>
+    <SecuritySuite>0</SecuritySuite>
+    <ClientSystemTitle>00 00 02 20 15 44 00 08</ClientSystemTitle>
+    <ServerSystemTitle>4E 49 4B 11 10 00 00 64</ServerSystemTitle>
+    <Certificates/>
+  </GXDLMSSecuritySetup>
+  <GXDLMSSecuritySetup>
+    <LN>0.0.43.0.3.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Security setup  #3</Description>
+    <SecurityPolicy>108</SecurityPolicy>
+    <SecuritySuite>0</SecuritySuite>
+    <ClientSystemTitle>00 00 02 20 15 44 00 08</ClientSystemTitle>
+    <ServerSystemTitle>4E 49 4B 11 10 00 00 64</ServerSystemTitle>
+    <Certificates/>
+  </GXDLMSSecuritySetup>
+  <GXDLMSSecuritySetup>
+    <LN>0.0.43.0.4.255</LN>
+    <Version>1</Version>
+    <Description>Ch. 0 Security setup  #4</Description>
+    <SecurityPolicy>0</SecurityPolicy>
+    <SecuritySuite>0</SecuritySuite>
+    <ClientSystemTitle>00 00 02 20 15 44 00 08</ClientSystemTitle>
+    <ServerSystemTitle>4E 49 4B 11 10 00 00 64</ServerSystemTitle>
+    <Certificates/>
+  </GXDLMSSecuritySetup>
+  <GXDLMSDisconnectControl>
+    <LN>0.0.96.3.10.255</LN>
+    <Description>Ch. 0 Disconnect control</Description>
+    <OutputState>1</OutputState>
+    <ControlState>1</ControlState>
+    <ControlMode>5</ControlMode>
+  </GXDLMSDisconnectControl>
+  <GXDLMSLimiter>
+    <LN>0.0.17.0.0.255</LN>
+    <Description>Ch. 0 Limiter  #1</Description>
+    <MonitoredValue>
+      <ObjectType>3</ObjectType>
+      <LN>1.0.90.7.0.255</LN>
+    </MonitoredValue>
+    <ThresholdActive Type="6">30000</ThresholdActive>
+    <ThresholdNormal Type="6">30000</ThresholdNormal>
+    <ThresholdEmergency Type="6">30000</ThresholdEmergency>
+    <MinOverThresholdDuration>5</MinOverThresholdDuration>
+    <MinUnderThresholdDuration>5</MinUnderThresholdDuration>
+    <EmergencyProfile>
+      <ID>0</ID>
+      <Time Type="DataType.DATETIME">*/*/* 00:00:00</Time>
+      <Duration>0</Duration>
+    </EmergencyProfile>
+    <EmergencyProfileGroupIDs/>
+    <Active>0</Active>
+    <ActionOverThreshold>
+      <LN>0.0.10.0.106.255</LN>
+      <ScriptSelector>5</ScriptSelector>
+    </ActionOverThreshold>
+    <ActionUnderThreshold>
+      <LN>0.0.10.0.106.255</LN>
+      <ScriptSelector>6</ScriptSelector>
+    </ActionUnderThreshold>
+  </GXDLMSLimiter>
+</Objects>

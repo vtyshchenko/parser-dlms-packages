@@ -1,0 +1,33 @@
+try:
+    from enum import IntEnum
+    __base = IntEnum
+except Exception:
+    __base = object
+
+
+class NikelDlmsFuncStatus(__base):
+    SUCCESS = 0
+    FAILURE = -1
+    NONE_ERR = 1
+    INIT_ERR = 2
+    CONNECT_ERR = 3
+    DISCONECT_ERR = 4
+    INITIALISE_ERR = 5
+    GET_ASSOTIATION_ERR = 6
+    READ_VALUE_ERR = 7
+    WRITE_VALUE_ERR = 8
+    CLIENT_LOAD_ERR = 9
+    WRITE_RESULT_ERR = 10
+    LOAD_DEFCONF_ERR = 11
+    CREATE_DEF_TASK_ERR = 12
+    ENUMR_CLIENT_STATUS_ERR = 13
+    ENUMR_LIST_SAVE_ERR = 14
+    ENUMR_READ_CLIENT_ERR = 15
+    OPEN_SERIAL_PORT_ERR = 14
+    SERVICE_RUN_ERR = 16
+    FILE_NOT_EXIST_ERR = 17
+    OPEN_JSON_FILE_ERR = 19
+    CREATE_DIR_ERR = 20
+    SAVE_JSON_ERR = 21
+    PATH_IS_EMPTY = 22
+    DLMS_REMOVE_DIR = 23
