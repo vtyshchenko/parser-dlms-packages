@@ -124,7 +124,6 @@ class GXSettings:
                     c.value = args[1 + index]
         return list_
 
-
     def getParameters(self, args):
         """ Documentation for a method get_parameters.
 
