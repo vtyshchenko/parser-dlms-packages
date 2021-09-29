@@ -38,7 +38,24 @@ class Json:
         else:
             return None
 
-    def save_file(self, file_name, p_out, ensure_ascii=True, is_file_exists=True):
+    @staticmethod
+    def save_file(file_name, p_out):
+        """ Documentation for a method.  Added: 13.09.2018 16:33
+         Save dict into json file
+
+        :param file_name: json file path and name
+        :type file_name: string
+        :param p_out: data for save data in the file
+        :type p_out: dict
+        """
+        try:
+            with open(file_name, 'w') as file:
+                json.dump(p_out, file, indent=4)
+        except Exception as exc:
+            err = f"Error saving file {file_name}: {exc}"
+            raise Exception(err)
+
+    def save_file_ex(self, file_name, p_out, ensure_ascii=True, is_file_exists=True):
         """ Documentation for a method save_json.  Added: 13.09.2018 16:33
          Save dict into json file
 
