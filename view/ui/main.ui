@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QTabWidget" name="tabWidget">
+     <widget class="QTabWidget" name="tabs">
       <property name="currentIndex">
        <number>1</number>
       </property>
@@ -47,9 +47,9 @@
         </layout>
        </widget>
       </widget>
-      <widget class="QWidget" name="tbFromFile">
+      <widget class="QWidget" name="tbMany">
        <attribute name="title">
-        <string>From file</string>
+        <string>Many</string>
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayout_6">
         <item>
