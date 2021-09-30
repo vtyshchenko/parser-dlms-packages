@@ -169,7 +169,7 @@ class GXDLMSCredit(GXDLMSObject, IGXDLMSBase):
         elif e.index == 2:
             ret = self.currentCreditAmount
         elif e.index == 3:
-            ret = self.type_
+            ret = self.type_.value
         elif e.index == 4:
             ret = self.priority
         elif e.index == 5:
@@ -179,7 +179,7 @@ class GXDLMSCredit(GXDLMSObject, IGXDLMSBase):
         elif e.index == 7:
             ret = GXBitString.toBitString(self.creditConfiguration, 5)
         elif e.index == 8:
-            ret = self.status
+            ret = self.status.value
         elif e.index == 9:
             ret = self.presetCreditAmount
         elif e.index == 10:
@@ -240,12 +240,12 @@ class GXDLMSCredit(GXDLMSObject, IGXDLMSBase):
 
     def save(self, writer):
         writer.writeElementString("CurrentCreditAmount", self.currentCreditAmount)
-        writer.writeElementString("Type", int(self.type_))
+        writer.writeElementString("Type", int(self.type_.value))
         writer.writeElementString("Priority", self.priority)
         writer.writeElementString("WarningThreshold", self.warningThreshold)
         writer.writeElementString("Limit", self.limit)
         writer.writeElementString("CreditConfiguration", int(self.creditConfiguration))
-        writer.writeElementString("Status", int(self.status))
+        writer.writeElementString("Status", int(self.status.value))
         writer.writeElementString("PresetCreditAmount", self.presetCreditAmount)
         writer.writeElementString("CreditAvailableThreshold", self.creditAvailableThreshold)
         writer.writeElementString("Period", self.period)

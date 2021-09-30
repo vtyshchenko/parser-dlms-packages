@@ -1098,7 +1098,7 @@ class GXDLMSClient(object):
                 _GXCommon.setData(self.settings, buff, DataType.UINT16, it[0].objectType)
                 _GXCommon.setData(self.settings, buff, DataType.OCTET_STRING, _GXCommon.logicalNameToBytes(it[0].logicalName))
                 _GXCommon.setData(self.settings, buff, DataType.INT8, it[1].attributeIndex)
-                _GXCommon.setData(self.settings, buff, DataType.INT16, it[1].dataIndex)
+                _GXCommon.setData(self.settings, buff, DataType.UINT16, it[1].dataIndex)
         return self._read(pg.name, ObjectType.PROFILE_GENERIC, 2, buff)
 
     @classmethod

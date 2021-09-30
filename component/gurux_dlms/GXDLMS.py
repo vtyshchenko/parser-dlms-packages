@@ -761,7 +761,7 @@ class GXDLMS:
             primaryAddress = cls.getAddressBytes(settings.serverAddress, settings.serverAddressSize)
             secondaryAddress = cls.getAddressBytes(settings.clientAddress, 1)
         bb.setUInt8(_GXCommon.HDLC_FRAME_START_END)
-        frameSize = settings.limits.maxInfoTX
+        frameSize = settings.limits.maxInfoTX - 9
         if data and data.position == 0:
             frameSize -= 3
         if not data:
