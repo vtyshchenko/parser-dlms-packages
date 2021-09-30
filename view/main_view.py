@@ -1,6 +1,7 @@
 # from PyQt5.QtCore import Qt
+from time import time
 
-from PyQt5.QtWidgets import QMainWindow, QFileDialog
+from PyQt5.QtWidgets import QMainWindow, QFileDialog, QApplication
 from os.path import abspath, join
 
 from view.ui.ui_main import Ui_MainWindow
@@ -39,6 +40,9 @@ class MainView(QMainWindow, Ui_MainWindow):
         self.tlbrOperations.addAction(self.actionAbout)
         self.tlbrOperations.addSeparator()
         self.tlbrOperations.addAction(self.actionExit)
+
+        self.prgrsbrPackagesParse.setValue(0)
+
         self.data = None
         self.data_dict = dict()
 
@@ -50,10 +54,17 @@ class MainView(QMainWindow, Ui_MainWindow):
         for data_type in list(DataType):
             self.data_type[data_type.value] = data_type.name
 
+    def enabled_actions(self, value):
+        self.actionLoad.setEnabled(value)
+        self.actionSave.setEnabled(value)
+        self.actionCopy.setEnabled(value)
+        self.actionAnalize.setEnabled(value)
+
     def load(self):
         """ Documentation for a method load. Added:
         closes the main window
         """
+        self.enabled_actions(False)
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
         fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
@@ -63,23 +74,20 @@ class MainView(QMainWindow, Ui_MainWindow):
             with file_data:
                 self.data = file_data.read()
                 self.txtedtPackages.setText(self.data)
+            self.prgrsbrPackagesParse.setMaximum(len(self.data))
 
+            pos = 0
             i = 0
             idx = 0
-            while self.data and idx != -1:
-                idx = self.data.find('7E')
+            while idx != -1 and self.data[pos:] != '':
+                idx = pos + self.data[pos:].find('7E')
                 idx2 = idx + self.data[idx+1:].find('\n') + 1
-                data = self.data[idx:idx2]
-                package = dict()
-                # bytes = GXByteBuffer(data)
-                # <component.gurux_dlms.GXByteBuffer.GXByteBuffer object at 0x7f1e78b96b00>
-
-                # bytes.array()
-                # bytearray(b'~\xa0\x1c\x02!\x052\x85\xb8\xe6\xe6\x00\xc1\x01\xc1\x00p\x00\x00\x13\n\x02\xff\x03\x00\x16\x00o\x13~')
-                package["package"] = data
-                self.data_dict[i] = package
-                self.data = self.data[idx2+1:]
+                self.data_dict[i] = {"package": self.data[idx:idx2]}
+                pos = idx2 + 1
+                self.prgrsbrPackagesParse.setValue(pos)
+                QApplication.processEvents()
                 i += 1
+        self.enabled_actions(True)
 
     def save(self):
         """ Documentation for a method save. Added:
