@@ -90,7 +90,7 @@ class MainView(QMainWindow, Ui_MainWindow):
         file_saved_name, _ = QFileDialog.getSaveFileName(
             caption="Save result",
             directory=save_dir,
-            filter="All Files (*.txt)"
+            filter="All Files (*.json)"
         )
 
         self.json.save_file(file_saved_name, self.data_dict)
@@ -108,7 +108,7 @@ class MainView(QMainWindow, Ui_MainWindow):
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
         fileName, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
-                                                  "All Files (*.txt)", options=options)
+                                                  "All Files (*.json)", options=options)
         if fileName:
             self.data = self.json.load_file(fileName)
             self.txtedtPackages.setText(f"{self.data}")
@@ -133,12 +133,17 @@ class MainView(QMainWindow, Ui_MainWindow):
         """
         pass
 
-    def get_addr(self, idx, data):
+    @staticmethod
+    def get_addr(idx: int, data: bytearray):
         """ Documentation for a method get_addr. Added: 29.09.21 23:59 volodymyr.tyshchenko
 
+        :param idx: data element index
+        :type idx: int
+        :param data:
+        :type data: bytearray
 
-        :param idx:
-        :type idx:
+        :return address list and next element index in data
+        :rtype tuple
         """
         is_end = '0'
         addr = list()
@@ -147,34 +152,69 @@ class MainView(QMainWindow, Ui_MainWindow):
             is_end = bin(data[i])[-1]
             addr.append(data[i])
             i += 1
-        return (addr, i)
+        return tuple([addr, i])
 
     def parse_dlms(self):
         """ Documentation for a method parseDLMS. Added: 29.09.21 20:52 volodymyr.tyshchenko
         parse DLMS packages
         """
-        for key, obj in self.data_dict.items():
-            pack = GXByteBuffer(obj["package"]).array()
-            self.data_dict[key]["data"] = dict()
-            self.data_dict[key]["data"]["Length"] = pack[2]
-
-            self.data_dict[key]["data"]["addr_from"], i = self.get_addr(idx=3, data=pack)
-            self.data_dict[key]["data"]["addr_to"], i = self.get_addr(idx=i, data=pack)
-            self.data_dict[key]["data"]["next"] = pack[i]
-            self.data_dict[key]["data"]["pack_type"] = pack[i + 6]
-            if pack[i + 6] == 0xC5:
-                self.data_dict[key]["data"]["result"] = pack[i + 9]
-            elif pack[i + 6] == 0xC4:
-                self.data_dict[key]["data"]["result"] = pack[i + 9]
-                self.data_dict[key]["data"]["type"] = {"value": pack[i + 10], "name": self.data_type[pack[i + 10]]}
-                data = list()
-                for j in range(i+11, len(pack)-3):
-                    data.append(pack[j])
-                self.data_dict[key]["data"]["value"] = data
-            elif pack[i + 6] == 0xC0:
-                self.data_dict[key]["data"]["type"] = {"value": pack[i + 10], "name": self.object_type[pack[i + 10]]}
-                obis = f"{pack[i + 11]}.{pack[i + 12]}.{pack[i + 13]}.{pack[i + 14]}.{pack[i + 15]}.{pack[i + 16]}"
-                self.data_dict[key]["data"]["obis"] = obis
-                self.data_dict[key]["data"]["attribute"] = pack[i + 17]
+        try:
+            for key, obj in self.data_dict.items():
+                print()
+                is_c4_last = True
+                pack = GXByteBuffer(obj["package"]).array()
+                i = self.parse_head(pack=pack, key=key)
+                if pack[i] == 0xC5:
+                    self.data_dict[key]["data"]["result"] = pack[i + 3]
+                elif pack[i] == 0xC4:
+                    self.data_dict[key]["data"]["result"] = pack[i + 3]
+                    self.data_dict[key]["data"]["type"] = {"value": pack[i + 4], "name": self.data_type[pack[i + 4]]}
+                    data = list()
+                    for j in range(i+5, len(pack)-3):
+                        data.append(pack[j])
+                    self.data_dict[key]["data"]["value"] = data
+                elif pack[i] == 0xC0:
+                    if key == 480:
+                        print("")
+                    if pack[i + 1] == 0x01:
+                        self.data_dict[key]["data"]["type"] = {
+                            "value": pack[i + 4], "name": self.object_type[pack[i + 4]]
+                            }
+                        obis = f"{pack[i + 5]}.{pack[i + 6]}.{pack[i + 7]}.{pack[i + 8]}.{pack[i + 9]}.{pack[i + 10]}"
+                        self.data_dict[key]["data"]["obis"] = obis
+                        self.data_dict[key]["data"]["attribute"] = pack[i + 11]
+                    elif pack[i + 1] == 0x02:
+                        self.data_dict[key]["data"]["number"] = {
+                            "data": [pack[i + 3], pack[i + 4], pack[i + 5], pack[i + 6]],
+                            "value": (pack[i + 3] >> 3) + (pack[i + 4] >> 2) + (pack[i + 5] >> 1) + pack[i + 6]
+                            }
+                # elif pack[i + 6] == 0xC1:
+                #     is_c1_last = False
+        except Exception as exc:
+            print(f"{exc}")
 
         self.save()
+
+    def parse_head(self, pack, key):
+        """ Documentation for a method parse_head. Added: 30.09.2021 08:59 volodymyr.tyshchenko
+
+        :param pack:
+        :type pack:
+        :param key:
+        :type key:
+
+        :return element index in data
+        :rtype int
+        """
+        self.data_dict[key]["data"] = dict()
+        self.data_dict[key]["data"]["Length"] = pack[2]
+
+        self.data_dict[key]["data"]["addr_from"], i = self.get_addr(idx=3, data=pack)
+        self.data_dict[key]["data"]["addr_to"], i = self.get_addr(idx=i, data=pack)
+        self.data_dict[key]["data"]["next"] = pack[i]
+
+        self.data_dict[key]["data"]["in_out"] = {"value":     pack[10],
+                                                 "direction": "out" if pack[10] == 0xE6 else "in"}
+        self.data_dict[key]["data"]["pack_type"] = pack[i + 6]
+
+        return i + 6
