@@ -157,11 +157,13 @@ class MainView(QMainWindow, Ui_MainWindow):
         """
         save_dir = join(abspath('.'), 'results')
 
-        file_saved_name, _ = QFileDialog.getSaveFileName(
+        file_saved_name, aaa = QFileDialog.getSaveFileName(
             caption="Save result",
             directory=save_dir,
-            filter="All Files (*.json)"
+            filter="*.json"
         )
+        if file_saved_name.find('.json') == -1:
+            file_saved_name += '.json'
 
         self.json.save_file(file_saved_name, self.data_dict)
 
