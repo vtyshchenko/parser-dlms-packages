@@ -323,8 +323,8 @@ class GXByteBuffer(__base):
         value = value % 2 ** 16
         return value
 
-    def getInt16(self):
-        return (self.getUInt16() + 2 ** 15) % 2 ** 16 - 2 ** 15
+    def getInt16(self, index=None):
+        return (self.getUInt16(index) + 2 ** 15) % 2 ** 16 - 2 ** 15
 
     def getInt32(self, index=None):
         if index is None:
