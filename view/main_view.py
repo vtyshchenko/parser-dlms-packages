@@ -1,6 +1,6 @@
 # from PyQt5.QtCore import Qt
-from sys import excepthook
-from time import time
+# from sys import excepthook
+# from time import time
 
 from PyQt5.QtWidgets import QMainWindow, QFileDialog, QApplication
 from os.path import abspath, join
@@ -9,12 +9,14 @@ from view.ui.ui_main import Ui_MainWindow
 from controller.__json import Json
 
 from component.gurux_dlms.enums.DataType import DataType
-from component.gurux_dlms.enums.ErrorCode import ErrorCode
+# from component.gurux_dlms.enums.ErrorCode import ErrorCode
 from component.gurux_dlms.enums.ObjectType import ObjectType
-from component.gurux_dlms.enums.Unit import Unit
-from component.gurux_dlms.internal._GXCommon import _GXCommon
+# from component.gurux_dlms.enums.Unit import Unit
+# from component.gurux_dlms.internal._GXCommon import _GXCommon
 from component.gurux_dlms.GXByteBuffer import GXByteBuffer
+from component.gurux_dlms.GXDLMSClient import GXDLMSClient
 
+from controller.parse_packages import ParsePackage
 
 class MainView(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
@@ -22,6 +24,7 @@ class MainView(QMainWindow, Ui_MainWindow):
         self.setupUi(self)
 
         self.json = Json()
+        self.GXDLMSClient = GXDLMSClient()
 
         self.actionLoad.triggered.connect(self.load)
         self.actionSave.triggered.connect(self.save)
@@ -51,6 +54,7 @@ class MainView(QMainWindow, Ui_MainWindow):
         # self.data = None
         self.data_packages = dict()
         self.data_dict = dict()
+        self.parse_package = ParsePackage()
 
         self.object_type = dict()
         for obj_type in list(ObjectType):
@@ -77,39 +81,47 @@ class MainView(QMainWindow, Ui_MainWindow):
             self.data_dict[key]["data"] = dict()
             self.data_dict[key]["data"]["package"] = obj
             try:
-                pack = GXByteBuffer(obj).array()
+                pack = GXByteBuffer(obj)
+                self.parse_package.package = pack
+                self.parse_package.parse_package()
+                self.parse_package.parse_body()
+
+                # data_item = self.GXDLMSClient.parseObjects(data=pack)
+                # pack = pack.array()
             except Exception as exc:
-                print(f"key = {key}\nobj = {obj}\nexc = {exc}")
-                pack = GXByteBuffer().array()
-            idx = 0
-            for j in range(len(pack)):
-                if pack[j] == 0xE6 and (pack[j + 1] == 0xE6 or pack[j + 1] == 0xE7):
-                    idx = j + 3
-                    break
-            if len(pack) - 2 == pack[2]:
-                body_idx = (idx + 4) * 3
-                if pack[idx] == 0xC0:
-                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
-                elif pack[idx] == 0xC1:
-                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
-                elif pack[idx] == 0xC2:
-                    pass
-                elif pack[idx] == 0xC3:
-                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
-                elif pack[idx] == 0xC4:
-                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
-                    if pack[idx+1] == 0x02:
-                        pass
-                elif pack[idx] == 0xC5:
-                    self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
-                    self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
-                elif pack[idx] == 0xC6:
-                    pass
-                elif pack[idx] == 0xC7:
-                    self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
-                    self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
-            else:
-                pass
+                print(f"exc = {exc}")
+                # print(f"key = {key}\nobj = {obj}\nexc = {exc}")
+                # pack = GXByteBuffer().array()
+                continue
+        #     idx = 0
+        #     for j in range(len(pack)):
+        #         if pack[j] == 0xE6 and (pack[j + 1] == 0xE6 or pack[j + 1] == 0xE7):
+        #             idx = j + 3
+        #             break
+        #     if len(pack) - 2 == pack[2]:
+        #         body_idx = (idx + 4) * 3
+        #         if pack[idx] == 0xC0:
+        #             self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+        #         elif pack[idx] == 0xC1:
+        #             self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+        #         elif pack[idx] == 0xC2:
+        #             pass
+        #         elif pack[idx] == 0xC3:
+        #             self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+        #         elif pack[idx] == 0xC4:
+        #             self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+        #             if pack[idx+1] == 0x02:
+        #                 pass
+        #         elif pack[idx] == 0xC5:
+        #             self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
+        #             self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
+        #         elif pack[idx] == 0xC6:
+        #             pass
+        #         elif pack[idx] == 0xC7:
+        #             self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
+        #             self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
+        #     else:
+        #         pass
 
     def load(self):
         """ Documentation for a method load. Added:
