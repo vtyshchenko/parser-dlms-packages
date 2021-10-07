@@ -13,10 +13,14 @@ from component.gurux_dlms.enums.DataType import DataType
 from component.gurux_dlms.enums.ObjectType import ObjectType
 # from component.gurux_dlms.enums.Unit import Unit
 # from component.gurux_dlms.internal._GXCommon import _GXCommon
+from component.gurux_dlms.GXDLMS import GXDLMS
 from component.gurux_dlms.GXByteBuffer import GXByteBuffer
 from component.gurux_dlms.GXDLMSClient import GXDLMSClient
+from component.gurux_dlms.GXReplyData import GXReplyData
+from component.gurux_dlms.GXDLMSSettings import GXDLMSSettings
 
 from controller.parse_packages import ParsePackage
+
 
 class MainView(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
@@ -25,6 +29,7 @@ class MainView(QMainWindow, Ui_MainWindow):
 
         self.json = Json()
         self.GXDLMSClient = GXDLMSClient()
+        self.dlms = GXDLMS()
 
         self.actionLoad.triggered.connect(self.load)
         self.actionSave.triggered.connect(self.save)
@@ -80,13 +85,21 @@ class MainView(QMainWindow, Ui_MainWindow):
             self.data_dict[key] = dict()
             self.data_dict[key]["data"] = dict()
             self.data_dict[key]["data"]["package"] = obj
-            try:
-                pack = GXByteBuffer(obj)
-                self.parse_package.package = pack
-                self.parse_package.parse_package()
-                self.parse_package.parse_body()
+            reply = GXByteBuffer(obj)
+            data = GXReplyData()
 
-                # data_item = self.GXDLMSClient.parseObjects(data=pack)
+            self.data_dict[key]["data"]["data"] = data
+            notify = GXReplyData()
+            settings = GXDLMSSettings(isServer=True)
+            settings.skipFrameCheck = True
+            try:
+                self.dlms.getData(settings=settings, reply=reply, data=data, notify=notify)
+                pack = GXByteBuffer(obj)
+                # pack = pack[:pack.getCapacity()-10]
+                self.parse_package.package = reply
+                self.parse_package.parse_package()
+
+                data_item = self.GXDLMSClient.parseObjects(data=pack)
                 # pack = pack.array()
             except Exception as exc:
                 print(f"exc = {exc}")

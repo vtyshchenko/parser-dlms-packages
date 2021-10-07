@@ -1,91 +1,94 @@
-from component.gurux_dlms.enums.DataType import DataType
-from component.gurux_dlms.GXByteBuffer import GXByteBuffer
+# from component.gurux_dlms.enums.DataType import DataType
+# from component.gurux_dlms.GXByteBuffer import GXByteBuffer
 from component.gurux_dlms.internal._GXCommon import _GXCommon
+from component.gurux_dlms.internal._GXDataInfo import _GXDataInfo
 
 from component.gurux_dlms.GXDLMSSettings import GXDLMSSettings
-from component.gurux_dlms.internal._GXDataInfo import _GXDataInfo
+from component.gurux_dlms.enums import RequestTypes, Command
 
 
 class ParsePackage:
-    def __init__(self, ):
-        # TX:  7E A0 1C 02 21 05 32 85 B8 E6 E6 00 C1 01 C1 00 70 00 00 13 0A 02 FF 03 00 16 00 6F 13 7E
-        # RX:  7E A0 11 05 02 21 52 DA 58 E6 E7 00 C5 01 C1 00 50 89 7E
-        self.package = None
-        self.length = 0
+    def __init__(self, package=None):
+        self.package = package
+        self.package_length = len(self.package) - 2
+
+        # head
+        self.head = None
         self.address_from = 0
         self.address_to = 0
         self.number = 0
-        self.type_ = 0
-        self.type_name = None
-        self.pack_type = 0
-        self.position = 0
-        self.index = 0
         self.crc_head = 0
-        self.object_type = 0
-        
+
+        # body
         self.body = None
         self.body_dict = {}
         self.body_length = 0
+        self.type_ = 0
+        self.type_name = None
+        self.type_command = Command.NONE
+        self.more_data = RequestTypes.NONE
+        self.pack_type = 0
+        self.is_last = 0
+        self.frame_number = 0
+        self.object_type = 0
         self.crc_body = 0
 
-    def _get_address(self, idx: int, data: bytearray):
-        """ Documentation for a method get_addr. Added: 29.09.21 23:59 volodymyr.tyshchenko
+        self.position = 0
 
-        :param idx: data element index
-        :type idx: int
-        :param data:
-        :type data: bytearray
+    def get_byte_from_package(self):
+        self.position += 1
+        return self.package[self.position] if self.position <= self.package_length else None
+
+    def _get_address(self):
+        """ Documentation for a method _get_address. Added: 29.09.21 23:59 volodymyr.tyshchenko
 
         :return address list and next element index in data
         :rtype tuple
         """
-        is_end = '0'
         address = list()
-        self.index = idx
-        while is_end == '0':
-            is_end = bin(data[self.index])[-1]
-            address.append(data[self.index])
-            self.index += 1
+        data = 0
+        while bin(data)[-1] == '0':
+            data = self.get_byte_from_package()
+            address.append(data)
         return address
 
     def parse_package(self):
         """ Documentation for a method parse_package. Added: 04.10.2021 11:17 volodymyr.tyshchenko
         """
+        # ------------------------------------------------------------------------
+        # TX: 22:07:28	7E A0 1A 02 21 05 FE 7D 8F E6 E6 00 C0 01 C1 00 03 01 00 02 07 00 FF 02 00 B3 0E 7E
+        # RX: 22:07:28	7E A0 16 05 02 21 1E 6E E0 E6 E7 00 C4 01 C1 00 06 00 00 00 00 7D 18 7E
+        # TX: 22:07:28	7E A0 71 02 21 05 10 52 67 E6 E6 00 C0 01 C1 00 07 01 00 63 01 00 FF 02 01 01 02 04 02 04 12 00 08 09 06 00 00 01 00 00 FF 0F 02 12 00 00 09 0C 07 E7 01 0D 05 15 00 00 00 80 00 00 09 0C 07 E7 09 06 03 00 00 00 00 80 00 00 01 02 02 04 12 00 08 09 06 00 00 01 00 00 FF 0F 02 12 00 00 02 04 12 00 08 09 06 00 00 01 00 00 FF 0F 04 12 00 00 9F 78 7E
+        # RX: 22:07:31	7E A0 93 05 02 21 30 13 84 E6 E7 00 C4 02 C1 00 00 00 00 01 00 7C 01 82 03 D7 02 02 09 0C 07 E7 01 0D 05 13 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0D 05 14 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0D 05 15 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0D 05 16 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0D 05 17 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0E 06 00 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0E 06 01 00 00 0F 0A 7E
+        # ...
+        # TX: 22:09:28	7E A0 14 02 21 05 10 B5 E0 E6 E6 00 C0 02 C1 00 00 00 B7 EC 6E 7E
+        # RX: 22:09:28	7E A0 93 05 02 21 30 13 84 E6 E7 00 C4 02 C1 00 00 00 00 B8 00 7C 00 00 00 00 00 00 11 07 06 06 02 09 E7 02 03 09 0C 07 E7 09 03 07 00 00 00 00 00 00 00 11 07 06 07 03 09 E7 02 03 09 0C 07 E7 09 03 07 17 00 00 00 00 00 00 11 07 06 07 03 09 E7 02 03 09 0C 07 E7 09 04 01 00 00 00 00 00 00 00 11 07 06 01 04 09 E7 02 03 09 0C 07 E7 09 04 01 17 00 00 00 00 00 00 11 07 06 01 04 09 E7 02 03 09 0C 07 E7 09 05 02 00 00 00 00 00 00 00 11 07 06 B8 BC 7E
+        # TX: 22:09:28	7E A0 14 02 21 05 32 A5 E2 E6 E6 00 C0 02 C1 00 00 00 B8 1B 96 7E
+        # RX: 22:09:28	7E A0 60 05 02 21 52 6D 46 E6 E7 00 C4 02 C1 01 00 00 00 B9 00 49 02 05 09 E7 02 03 09 0C 07 E7 09 05 02 17 00 00 00 00 00 00 11 07 06 02 05 09 E7 02 03 09 0C 07 E7 09 06 03 00 00 00 00 00 00 00 11 07 06 03 06 09 E7 02 03 09 0C 07 E7 09 06 03 01 00 00 00 00 00 00 11 07 06 03 06 09 E7 CF DD 7E
+        # TX: 22:09:43	7E A0 1A 02 21 05 54 2D 85 E6 E6 00 C0 01 C1 00 03 01 00 02 07 00 FF 02 00 B3 0E 7E
+        # RX: 22:09:43	7E A0 16 05 02 21 74 32 2C E6 E7 00 C4 01 C1 00 06 00 00 00 00 7D 18 7E
+        # ------------------------------------------------------------------------
         if self.package is None:
             raise "package is not set"
-        # 7E A0
-        # 11
-        self.length = self.package[2]
+        self.parse_head()
+        self.head = self.package[1:self.position+1]
+        self.body = self.package[self.position+1:-1]
+        self.body_length = len(self.body)
+        self.crc_body = int.from_bytes(self.body[-2], byteorder='big', signed=False) << 8 \
+            + int.from_bytes(self.body[-1], byteorder='big', signed=False)
+        self.parse_body()
 
-        # 05 02 21
-        self.address_from = self._get_address(idx=3, data=self.package)
-        self.address_to = self._get_address(idx=self.index, data=self.package)
-        # 52
-        self.number = self.package[self.index]
-        self.index += 1
-        # DA 58
-        self.crc_head = self.package[self.index] << 8 + self.package[self.index + 1]
-        self.index += 3
-
-        # E6 E7
-        self.type_ = self.package[self.index]
-        self.type_name = "req" if self.package[10] == 0xE6 else "res"
-        # 00 C5
-        # 01
-
-        self.index += 4
-        # C1
-        self.pack_type = self.package[self.index]
-
-        if self.type_name == "req":
-            self.index += 2
-            self.object_type = self.package[self.index]
-        self.index += 1
-        val = self.package.array()[self.index:-3]
-        self.body = GXByteBuffer(value=val)
-        self.body_length = self.length - self.index - 1
-        self.crc_body = int.from_bytes(self.package[-3:-2], byteorder='big', signed=False) << 8 \
-            + int.from_bytes(self.package[-2:-1], byteorder='big', signed=False)
+    def parse_head(self):
+        # TX:  7E A0 1C 02 21 05 32 85 B8 E6 E6 00 C1 01 C1 00 70 00 00 13 0A 02 FF 03 00 16 00 6F 13 7E
+        # RX:  7E A0 11 05 02 21 52 DA 58 E6 E7 00 C5 01 C1 00 50 89 7E
+        self.position = 1                                                   # 7E A0
+        self.package_length = self.get_byte_from_package()               # 11           1C
+        self.address_from = self._get_address()                          # 05           02 21
+        self.address_to = self._get_address()                            # 02 21        05
+        self.number = self.get_byte_from_package()                       # 52           32
+        crc_high = self.get_byte_from_package()                          # DA           85
+        crc_low = self.get_byte_from_package()                           # 58           B8
+        self.crc_head = (crc_high << 8) + crc_low
 
     def parse_body(self):
         # gurux parse
@@ -93,10 +96,20 @@ class ParsePackage:
             raise "package is not set"
         if self.body is None:
             raise "package body is not set"
+
+        self.position += 2                                                   # E6
+        self.type_ = self.get_byte_from_package()                         # E7
+        self.type_name = "req" if self.type_ == 0xE6 else "res"
+        self.position += 1                                                   # 00
+        self.type_command = self.get_byte_from_package()                  # C5
+        self.more_data = self.get_byte_from_package()                     # 01
+        self.pack_type = self.get_byte_from_package()                     # C1
+        self.is_last = self.get_byte_from_package()                       # 00
+
         if self.type_name == "res":
             if self.pack_type == 0xC1:
                 if self.body_length == 1:
-                    self.body_dict["value"] = self.body
+                    self.body_dict["value"] = self.body[self.position:-2]
                 else:
                     reply = _GXDataInfo()
                     settings = GXDLMSSettings(False)
@@ -104,6 +117,10 @@ class ParsePackage:
                         self.body_dict["body_value"] = _GXCommon.getData(settings=settings, data=self.body, info=reply)
         else:
             self.body_dict["body_value"] = self.body
+
+        if self.type_name == "req":
+            self.position += 2
+            self.object_type = self.package[self.position]
 
     # def get_value(self):
     #     """ Documentation for a method get_value. Added: 04.10.2021 12:27 volodymyr.tyshchenko
