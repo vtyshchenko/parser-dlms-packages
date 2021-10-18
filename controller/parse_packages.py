@@ -10,7 +10,7 @@ from component.gurux_dlms.enums import RequestTypes, Command
 class ParsePackage:
     def __init__(self, package=None):
         self.package = package
-        self.package_length = len(self.package) - 2
+        self.package_length = len(self.package) - 2 if package is not None else 0
 
         # head
         self.head = None
