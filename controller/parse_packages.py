@@ -37,7 +37,7 @@ class ParsePackage:
 
     def get_byte_from_package(self):
         self.position += 1
-        return self.package[self.position] if self.position <= self.package_length else None
+        return self.package[self.position] if self.position <= len(self.package) else None
 
     def _get_address(self):
         """ Documentation for a method _get_address. Added: 29.09.21 23:59 volodymyr.tyshchenko
@@ -74,8 +74,15 @@ class ParsePackage:
         self.head = self.package[1:self.position+1]
         self.body = self.package[self.position+1:-1]
         self.body_length = len(self.body)
-        self.crc_body = int.from_bytes(self.body[-2], byteorder='big', signed=False) << 8 \
-            + int.from_bytes(self.body[-1], byteorder='big', signed=False)
+        if isinstance(self.body[-2], bytes):
+            b2 = int.from_bytes(self.body[-2], byteorder='big', signed=False)
+        else:
+            b2 = self.body[-2]
+        if isinstance(self.body[-1], bytes):
+            b1 = int.from_bytes(self.body[-1], byteorder='big', signed=False)
+        else:
+            b1 = self.body[-1]
+        self.crc_body = b2 << 8 + b1
         self.parse_body()
 
     def parse_head(self):

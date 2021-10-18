@@ -2,7 +2,7 @@
 # from sys import excepthook
 # from time import time
 
-from PyQt5.QtWidgets import QMainWindow, QFileDialog, QApplication
+from PyQt5.QtWidgets import QMainWindow, QFileDialog, QApplication, QTreeWidgetItem
 from os.path import abspath, join
 
 from view.ui.ui_main import Ui_MainWindow
@@ -76,65 +76,73 @@ class MainView(QMainWindow, Ui_MainWindow):
     def enabled_actions(self, value):
         self.actionLoad.setEnabled(value)
         self.actionSave.setEnabled(value)
-        self.actionCopy.setEnabled(value)
-        self.actionAnalize.setEnabled(value)
+        # self.actionCopy.setEnabled(value)
+        # self.actionAnalize.setEnabled(value)
 
-    def parse_data_package(self):
+    def parse_data_package(self, obj, key):
+        res = True
+        reply = GXByteBuffer(obj)
+        data = GXReplyData()
+
+        self.data_dict[key]["data"]["data"] = data
+        notify = GXReplyData()
+        settings = GXDLMSSettings(isServer=True)
+        settings.skipFrameCheck = True
+        try:
+            self.dlms.getData(settings=settings, reply=reply, data=data, notify=notify)
+            pack = GXByteBuffer(obj)
+            # pack = pack[:pack.getCapacity()-10]
+            self.parse_package.package = reply
+            self.parse_package.parse_package()
+
+            # data_item = self.GXDLMSClient.parseObjects(data=GXByteBuffer(self.parse_package.body))
+            # pack = pack.array()
+        except Exception as exc:
+            res = False
+            print(f"exc = {exc}")
+        return res
+
+    def parse_packages(self):
         for key in sorted(list(self.data_packages)):
             obj = self.data_packages[key]
             self.data_dict[key] = dict()
             self.data_dict[key]["data"] = dict()
             self.data_dict[key]["data"]["package"] = obj
-            reply = GXByteBuffer(obj)
-            data = GXReplyData()
+            res = self.parse_data_package(obj=obj, key=key)
 
-            self.data_dict[key]["data"]["data"] = data
-            notify = GXReplyData()
-            settings = GXDLMSSettings(isServer=True)
-            settings.skipFrameCheck = True
-            try:
-                self.dlms.getData(settings=settings, reply=reply, data=data, notify=notify)
-                pack = GXByteBuffer(obj)
-                # pack = pack[:pack.getCapacity()-10]
-                self.parse_package.package = reply
-                self.parse_package.parse_package()
-
-                data_item = self.GXDLMSClient.parseObjects(data=pack)
-                # pack = pack.array()
-            except Exception as exc:
-                print(f"exc = {exc}")
-                # print(f"key = {key}\nobj = {obj}\nexc = {exc}")
-                # pack = GXByteBuffer().array()
+            # print(f"key = {key}\nobj = {obj}\nexc = {exc}")
+            pack = GXByteBuffer(obj).array()
+            if not res:
                 continue
-        #     idx = 0
-        #     for j in range(len(pack)):
-        #         if pack[j] == 0xE6 and (pack[j + 1] == 0xE6 or pack[j + 1] == 0xE7):
-        #             idx = j + 3
-        #             break
-        #     if len(pack) - 2 == pack[2]:
-        #         body_idx = (idx + 4) * 3
-        #         if pack[idx] == 0xC0:
-        #             self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
-        #         elif pack[idx] == 0xC1:
-        #             self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
-        #         elif pack[idx] == 0xC2:
-        #             pass
-        #         elif pack[idx] == 0xC3:
-        #             self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
-        #         elif pack[idx] == 0xC4:
-        #             self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
-        #             if pack[idx+1] == 0x02:
-        #                 pass
-        #         elif pack[idx] == 0xC5:
-        #             self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
-        #             self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
-        #         elif pack[idx] == 0xC6:
-        #             pass
-        #         elif pack[idx] == 0xC7:
-        #             self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
-        #             self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
-        #     else:
-        #         pass
+            idx = 0
+            for j in range(len(pack)):
+                if pack[j] == 0xE6 and (pack[j + 1] == 0xE6 or pack[j + 1] == 0xE7):
+                    idx = j + 3
+                    break
+            if len(pack) - 2 == pack[2]:
+                body_idx = (idx + 4) * 3
+                if pack[idx] == 0xC0:
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+                elif pack[idx] == 0xC1:
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+                elif pack[idx] == 0xC2:
+                    pass
+                elif pack[idx] == 0xC3:
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+                elif pack[idx] == 0xC4:
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+                    if pack[idx+1] == 0x02:
+                        pass
+                elif pack[idx] == 0xC5:
+                    self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
+                elif pack[idx] == 0xC6:
+                    pass
+                elif pack[idx] == 0xC7:
+                    self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
+            else:
+                pass
 
     def load(self):
         """ Documentation for a method load. Added:
@@ -173,7 +181,7 @@ class MainView(QMainWindow, Ui_MainWindow):
                 i += 1
         # print(f"{ll}")
         self.prgrsbrPackagesParse.setValue(len(data))
-        self.parse_data_package()
+        self.parse_packages()
         self.enabled_actions(True)
 
     def save(self):
@@ -214,9 +222,32 @@ class MainView(QMainWindow, Ui_MainWindow):
         """ Documentation for a method analyze. Added:
         closes the main window
         """
+        # plntxtedtPackage
+        if len(self.data_dict) == 0:
+            self.data_dict["0"] = {"data": {"package": self.plntxtedtPackage.toPlainText()}}
         self.parse_dlms()
         # for key in self.data.keys():
         #     tmp_data = self.data[key]
+        self.show_result()
+        self.data_dict = dict()
+
+    def show_result(self):
+        self.trwdtResult.clear()
+        items = []
+        for key, values in self.data_dict["0"].items():
+            item = QTreeWidgetItem([key])
+            if isinstance(values, dict):
+                for k, v in values.items():
+                    it = QTreeWidgetItem([k])
+                    child = QTreeWidgetItem([k, f"{v}"])
+                    it.addChild(child)
+                    item.addChild(it)
+            else:
+                child = QTreeWidgetItem([key, f"{values}"])
+                item.addChild(child)
+            items.append(item)
+
+        self.trwdtResult.insertTopLevelItems(0, items)
 
     def help(self):
         """ Documentation for a method help. Added:
@@ -289,7 +320,7 @@ class MainView(QMainWindow, Ui_MainWindow):
         except Exception as exc:
             print(f"{exc}")
 
-        self.save()
+        # self.save()
 
     def parse_head(self, pack, key):
         """ Documentation for a method parse_head. Added: 30.09.2021 08:59 volodymyr.tyshchenko
