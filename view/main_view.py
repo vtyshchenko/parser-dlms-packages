@@ -87,21 +87,18 @@ class MainView(QMainWindow, Ui_MainWindow):
             i = 0
             idx = 0
             idx2 = 0
-            # ll = len(data)
             while idx != -1 and data[pos:] != '':
-                # print(f"0 idx = {idx}, idx2 = {idx2}")
                 idx = pos + data[pos:].find('7E')
                 if (idx-idx2) == 0:
                     break
                 idx2 = idx + data[idx+1:].find('\n') + 1
-                # print(f"1 idx = {idx}, idx2 = {idx2}")
                 self.parse_package.data_packages[i] = data[idx:idx2]
 
                 pos = idx2 + 1
                 self.prgrsbrPackagesParse.setValue(pos)
                 QApplication.processEvents()
                 i += 1
-        # print(f"{ll}")
+
         self.prgrsbrPackagesParse.setValue(len(data))
         self.parse_package.parse_packages()
         self.data_dict = self.parse_package.data_dict
@@ -145,12 +142,9 @@ class MainView(QMainWindow, Ui_MainWindow):
         """ Documentation for a method analyze. Added:
         closes the main window
         """
-        # plntxtedtPackage
         if len(self.data_dict) == 0:
             self.data_dict["0"] = {"data": {"package": self.plntxtedtPackage.toPlainText()}}
         self.parse_package.parse_package()
-        # for key in self.data.keys():
-        #     tmp_data = self.data[key]
         self.show_result()
         self.data_dict = dict()
 
