@@ -1,16 +1,21 @@
 # from component.gurux_dlms.enums.DataType import DataType
-# from component.gurux_dlms.GXByteBuffer import GXByteBuffer
+from component.gurux_dlms.enums import RequestTypes, Command
+
+from component.gurux_dlms.GXByteBuffer import GXByteBuffer
+from component.gurux_dlms.GXReplyData import GXReplyData
+from component.gurux_dlms.GXDLMSSettings import GXDLMSSettings
+from component.gurux_dlms.GXDLMS import GXDLMS
+
 from component.gurux_dlms.internal._GXCommon import _GXCommon
 from component.gurux_dlms.internal._GXDataInfo import _GXDataInfo
-
-from component.gurux_dlms.GXDLMSSettings import GXDLMSSettings
-from component.gurux_dlms.enums import RequestTypes, Command
 
 
 class ParsePackage:
     def __init__(self, package=None):
         self.package = package
         self.package_length = len(self.package) - 2 if package is not None else 0
+
+        self.dlms = GXDLMS()
 
         # head
         self.head = None
@@ -34,6 +39,8 @@ class ParsePackage:
         self.crc_body = 0
 
         self.position = 0
+        self.data_packages = dict()
+        self.data_dict = dict()
 
     def get_byte_from_package(self):
         self.position += 1
@@ -55,33 +62,17 @@ class ParsePackage:
     def parse_package(self):
         """ Documentation for a method parse_package. Added: 04.10.2021 11:17 volodymyr.tyshchenko
         """
-        # ------------------------------------------------------------------------
-        # TX: 22:07:28	7E A0 1A 02 21 05 FE 7D 8F E6 E6 00 C0 01 C1 00 03 01 00 02 07 00 FF 02 00 B3 0E 7E
-        # RX: 22:07:28	7E A0 16 05 02 21 1E 6E E0 E6 E7 00 C4 01 C1 00 06 00 00 00 00 7D 18 7E
-        # TX: 22:07:28	7E A0 71 02 21 05 10 52 67 E6 E6 00 C0 01 C1 00 07 01 00 63 01 00 FF 02 01 01 02 04 02 04 12 00 08 09 06 00 00 01 00 00 FF 0F 02 12 00 00 09 0C 07 E7 01 0D 05 15 00 00 00 80 00 00 09 0C 07 E7 09 06 03 00 00 00 00 80 00 00 01 02 02 04 12 00 08 09 06 00 00 01 00 00 FF 0F 02 12 00 00 02 04 12 00 08 09 06 00 00 01 00 00 FF 0F 04 12 00 00 9F 78 7E
-        # RX: 22:07:31	7E A0 93 05 02 21 30 13 84 E6 E7 00 C4 02 C1 00 00 00 00 01 00 7C 01 82 03 D7 02 02 09 0C 07 E7 01 0D 05 13 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0D 05 14 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0D 05 15 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0D 05 16 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0D 05 17 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0E 06 00 00 00 00 00 00 00 11 07 02 02 09 0C 07 E7 01 0E 06 01 00 00 0F 0A 7E
-        # ...
-        # TX: 22:09:28	7E A0 14 02 21 05 10 B5 E0 E6 E6 00 C0 02 C1 00 00 00 B7 EC 6E 7E
-        # RX: 22:09:28	7E A0 93 05 02 21 30 13 84 E6 E7 00 C4 02 C1 00 00 00 00 B8 00 7C 00 00 00 00 00 00 11 07 06 06 02 09 E7 02 03 09 0C 07 E7 09 03 07 00 00 00 00 00 00 00 11 07 06 07 03 09 E7 02 03 09 0C 07 E7 09 03 07 17 00 00 00 00 00 00 11 07 06 07 03 09 E7 02 03 09 0C 07 E7 09 04 01 00 00 00 00 00 00 00 11 07 06 01 04 09 E7 02 03 09 0C 07 E7 09 04 01 17 00 00 00 00 00 00 11 07 06 01 04 09 E7 02 03 09 0C 07 E7 09 05 02 00 00 00 00 00 00 00 11 07 06 B8 BC 7E
-        # TX: 22:09:28	7E A0 14 02 21 05 32 A5 E2 E6 E6 00 C0 02 C1 00 00 00 B8 1B 96 7E
-        # RX: 22:09:28	7E A0 60 05 02 21 52 6D 46 E6 E7 00 C4 02 C1 01 00 00 00 B9 00 49 02 05 09 E7 02 03 09 0C 07 E7 09 05 02 17 00 00 00 00 00 00 11 07 06 02 05 09 E7 02 03 09 0C 07 E7 09 06 03 00 00 00 00 00 00 00 11 07 06 03 06 09 E7 02 03 09 0C 07 E7 09 06 03 01 00 00 00 00 00 00 11 07 06 03 06 09 E7 CF DD 7E
-        # TX: 22:09:43	7E A0 1A 02 21 05 54 2D 85 E6 E6 00 C0 01 C1 00 03 01 00 02 07 00 FF 02 00 B3 0E 7E
-        # RX: 22:09:43	7E A0 16 05 02 21 74 32 2C E6 E7 00 C4 01 C1 00 06 00 00 00 00 7D 18 7E
-        # ------------------------------------------------------------------------
         if self.package is None:
             raise "package is not set"
         self.parse_head()
         self.head = self.package[1:self.position+1]
         self.body = self.package[self.position+1:-1]
         self.body_length = len(self.body)
-        if isinstance(self.body[-2], bytes):
-            b2 = int.from_bytes(self.body[-2], byteorder='big', signed=False)
-        else:
-            b2 = self.body[-2]
-        if isinstance(self.body[-1], bytes):
-            b1 = int.from_bytes(self.body[-1], byteorder='big', signed=False)
-        else:
-            b1 = self.body[-1]
+
+        b2 = int.from_bytes(self.body[-2], byteorder='big', signed=False) if isinstance(self.body[-2], bytes) \
+            else self.body[-2]
+        b1 = int.from_bytes(self.body[-1], byteorder='big', signed=False) if isinstance(self.body[-1], bytes) \
+            else self.body[-1]
         self.crc_body = b2 << 8 + b1
         self.parse_body()
 
@@ -96,6 +87,15 @@ class ParsePackage:
         crc_high = self.get_byte_from_package()                          # DA           85
         crc_low = self.get_byte_from_package()                           # 58           B8
         self.crc_head = (crc_high << 8) + crc_low
+
+        # self.data_dict[key]["Length"] = pack[2]
+        #
+        # self.data_dict[key]["addr_from"], i = self.get_addr(idx=3, data=pack)
+        # self.data_dict[key]["addr_to"], i = self.get_addr(idx=i, data=pack)
+        # self.data_dict[key]["next"] = pack[i]
+        #
+        # self.data_dict[key]["in_out"] = {"value": pack[10], "direction": "out" if pack[10] == 0xE6 else "in"}
+        # self.data_dict[key]["pack_type"] = pack[i + 6]
 
     def parse_body(self):
         # gurux parse
@@ -185,3 +185,110 @@ class ParsePackage:
     #     return ''
 
 # GXDLMS.getHdlcFrame(settings, id_, None)
+
+    def parse_data_package(self, obj, key):
+        res = True
+        reply = GXByteBuffer(obj)
+        data = GXReplyData()
+        self.data_dict[key]["Length"] = self.package_length
+
+        self.data_dict[key]["addr_from"] = self.address_from
+        self.data_dict[key]["addr_to"] = self.address_to
+        self.data_dict[key]["data"]["data"] = data
+        notify = GXReplyData()
+        settings = GXDLMSSettings(isServer=True)
+        settings.skipFrameCheck = True
+        try:
+            self.dlms.getData(settings=settings, reply=reply, data=data, notify=notify)
+            pack = GXByteBuffer(obj)
+            # pack = pack[:pack.getCapacity()-10]
+            self.package = reply
+            self.parse_package()
+
+            # data_item = self.GXDLMSClient.parseObjects(data=GXByteBuffer(self.parse_package.body))
+            # pack = pack.array()
+        except Exception as exc:
+            res = False
+            print(f"exc = {exc}")
+        return res
+
+    def parse_packages(self):
+        self.data_dict = dict()
+        for key in sorted(list(self.data_packages)):
+            obj = self.data_packages[key]
+            self.data_dict[key] = dict()
+            self.data_dict[key]["data"] = dict()
+            self.data_dict[key]["data"]["package"] = obj
+            res = self.parse_data_package(obj=obj, key=key)
+
+            # print(f"key = {key}\nobj = {obj}\nexc = {exc}")
+            pack = GXByteBuffer(obj).array()
+            if not res:
+                continue
+            idx = 0
+            for j in range(len(pack)):
+                if pack[j] == 0xE6 and (pack[j + 1] == 0xE6 or pack[j + 1] == 0xE7):
+                    idx = j + 3
+                    break
+            if len(pack) - 2 == pack[2]:
+                body_idx = (idx + 4) * 3
+                if pack[idx] == 0xC0:
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+                elif pack[idx] == 0xC1:
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+                elif pack[idx] == 0xC2:
+                    pass
+                elif pack[idx] == 0xC3:
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+                elif pack[idx] == 0xC4:
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:-3*3]
+                    if pack[idx+1] == 0x02:
+                        pass
+                elif pack[idx] == 0xC5:
+                    self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
+                elif pack[idx] == 0xC6:
+                    pass
+                elif pack[idx] == 0xC7:
+                    self.data_dict[key]["data"]["result"] = obj[body_idx:body_idx+3]
+                    self.data_dict[key]["data"]["body"] = obj[body_idx:body_idx+3]
+            else:
+                pass
+
+    # def parse_dlms(self):
+    #     """ Documentation for a method parseDLMS. Added: 29.09.21 20:52 volodymyr.tyshchenko
+    #     parse DLMS packages
+    #     """
+    #     try:
+    #         for key, obj in self.data_dict.items():
+    #             is_c4_last = True
+    #             pack = GXByteBuffer(obj["data"]["package"]).array()
+    #             i = self.parse_head(pack=pack, key=key)
+    #             if pack[i] == 0xC5:
+    #                 self.data_dict[key]["result"] = pack[i + 3]
+    #             elif pack[i] == 0xC4:
+    #                 self.data_dict[key]["result"] = pack[i + 3]
+    #                 self.data_dict[key]["type"] = {"value": pack[i + 4], "name": self.data_type[pack[i + 4]]}
+    #                 data = list()
+    #                 for j in range(i + 5, len(pack) - 3):
+    #                     data.append(pack[j])
+    #                 self.data_dict[key]["value"] = data
+    #             elif pack[i] == 0xC0:
+    #                 if key == 480:
+    #                     print("")
+    #                 if pack[i + 1] == 0x01:
+    #                     self.data_dict[key]["type"] = {
+    #                         "value": pack[i + 4], "name": self.object_type[pack[i + 4]]
+    #                         }
+    #                     obis = f"{pack[i + 5]}.{pack[i + 6]}.{pack[i + 7]}.{pack[i + 8]}.{pack[i + 9]}.{pack[i + 10]}"
+    #                     self.data_dict[key]["obis"] = obis
+    #                     self.data_dict[key]["attribute"] = pack[i + 11]
+    #                 elif pack[i + 1] == 0x02:
+    #                     self.data_dict[key]["number"] = {
+    #                         "data":  [pack[i + 3], pack[i + 4], pack[i + 5], pack[i + 6]],
+    #                         "value": (pack[i + 3] >> 3) + (pack[i + 4] >> 2) + (pack[i + 5] >> 1) + pack[i + 6]
+    #                         }
+    #             # elif pack[i + 6] == 0xC1:
+    #             #     is_c1_last = False
+    #     except Exception as exc:
+    #         print(f"{exc}")
